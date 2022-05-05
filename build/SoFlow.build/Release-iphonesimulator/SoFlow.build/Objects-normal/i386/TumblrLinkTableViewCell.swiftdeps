@@ -1,0 +1,516 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TumblrLinkTableViewCell"
+provides-nominal:
+- "C6SoFlow23TumblrLinkTableViewCell"
+provides-member:
+- ["C6SoFlow23TumblrLinkTableViewCell", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "setSelected"
+- "titleLabel"
+- "showLink"
+depends-top-level:
+- !private "StringLiteralType"
+- !private "Utility"
+- "SignedInUser"
+- "Post"
+- "UILabel"
+- !private "=="
+- "Bool"
+- !private "TumblrLinkPost"
+- !private "+="
+- !private "!="
+- "TumblrLinkTableViewCell"
+- !private "||"
+- "TumblrImageTableViewCell"
+depends-member:
+- !private ["PSs9AnyObject", "Utility"]
+- !private ["PSs9AnyObject", "absoluteString"]
+- ["PSs9AnyObject", "awakeFromNib"]
+- !private ["PSs9AnyObject", "captionLabel"]
+- !private ["PSs9AnyObject", "del"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "openUrl"]
+- !private ["PSs9AnyObject", "post"]
+- ["PSs9AnyObject", "setPost"]
+- ["PSs9AnyObject", "setSelected"]
+- ["PSs9AnyObject", "showLink"]
+- !private ["PSs9AnyObject", "text"]
+- !private ["PSs9AnyObject", "title"]
+- ["PSs9AnyObject", "titleLabel"]
+- !private ["PSs9AnyObject", "url"]
+- ["PSs9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "Utility"]
+- !private ["PSs11CVarArgType", "absoluteString"]
+- ["PSs11CVarArgType", "awakeFromNib"]
+- !private ["PSs11CVarArgType", "captionLabel"]
+- !private ["PSs11CVarArgType", "del"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "post"]
+- ["PSs11CVarArgType", "setPost"]
+- ["PSs11CVarArgType", "setSelected"]
+- ["PSs11CVarArgType", "showLink"]
+- !private ["PSs11CVarArgType", "text"]
+- ["PSs11CVarArgType", "titleLabel"]
+- ["PSs11CVarArgType", ""]
+- !private ["P6SoFlow12CellDelegate", "deinit"]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "Utility"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "absoluteString"]
+- ["PSs23CustomStringConvertible", "awakeFromNib"]
+- !private ["PSs23CustomStringConvertible", "captionLabel"]
+- !private ["PSs23CustomStringConvertible", "del"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "post"]
+- ["PSs23CustomStringConvertible", "setPost"]
+- ["PSs23CustomStringConvertible", "setSelected"]
+- ["PSs23CustomStringConvertible", "showLink"]
+- !private ["PSs23CustomStringConvertible", "text"]
+- ["PSs23CustomStringConvertible", "titleLabel"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "Utility"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "absoluteString"]
+- ["PSs9Equatable", "awakeFromNib"]
+- !private ["PSs9Equatable", "captionLabel"]
+- !private ["PSs9Equatable", "del"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "post"]
+- ["PSs9Equatable", "setPost"]
+- ["PSs9Equatable", "setSelected"]
+- ["PSs9Equatable", "showLink"]
+- !private ["PSs9Equatable", "text"]
+- ["PSs9Equatable", "titleLabel"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["PSs8Hashable", "Utility"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "absoluteString"]
+- ["PSs8Hashable", "awakeFromNib"]
+- !private ["PSs8Hashable", "captionLabel"]
+- !private ["PSs8Hashable", "del"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "post"]
+- ["PSs8Hashable", "setPost"]
+- ["PSs8Hashable", "setSelected"]
+- ["PSs8Hashable", "showLink"]
+- !private ["PSs8Hashable", "text"]
+- ["PSs8Hashable", "titleLabel"]
+- ["PSs8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["Si", "deinit"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "Utility"]
+- !private ["PSo8NSCoding", "absoluteString"]
+- ["PSo8NSCoding", "awakeFromNib"]
+- !private ["PSo8NSCoding", "captionLabel"]
+- !private ["PSo8NSCoding", "del"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "post"]
+- ["PSo8NSCoding", "setPost"]
+- ["PSo8NSCoding", "setSelected"]
+- ["PSo8NSCoding", "showLink"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "titleLabel"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "absoluteString"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Post"]
+- ["CSo8NSObject", "SignedInUser"]
+- !private ["CSo8NSObject", "TumblrLinkPost"]
+- ["CSo8NSObject", "UILabel"]
+- !private ["CSo8NSObject", "Utility"]
+- !private ["CSo8NSObject", "absoluteString"]
+- ["CSo8NSObject", "awakeFromNib"]
+- !private ["CSo8NSObject", "captionLabel"]
+- !private ["CSo8NSObject", "del"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "post"]
+- ["CSo8NSObject", "setPost"]
+- ["CSo8NSObject", "setSelected"]
+- ["CSo8NSObject", "showLink"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "titleLabel"]
+- !private ["PSo16NSObjectProtocol", "Utility"]
+- !private ["PSo16NSObjectProtocol", "absoluteString"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- !private ["PSo16NSObjectProtocol", "captionLabel"]
+- !private ["PSo16NSObjectProtocol", "del"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "post"]
+- ["PSo16NSObjectProtocol", "setPost"]
+- ["PSo16NSObjectProtocol", "setSelected"]
+- ["PSo16NSObjectProtocol", "showLink"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "titleLabel"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "absoluteString"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo5NSURL", "absoluteString"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["C6SoFlow4Post", "deinit"]
+- !private ["C6SoFlow4Post", "title"]
+- !private ["C6SoFlow4Post", "url"]
+- ["C6SoFlow17PostTableViewCell", "Bool"]
+- ["C6SoFlow17PostTableViewCell", "Post"]
+- ["C6SoFlow17PostTableViewCell", "SignedInUser"]
+- !private ["C6SoFlow17PostTableViewCell", "TumblrLinkPost"]
+- ["C6SoFlow17PostTableViewCell", "UILabel"]
+- !private ["C6SoFlow17PostTableViewCell", "Utility"]
+- ["C6SoFlow17PostTableViewCell", "awakeFromNib"]
+- !private ["C6SoFlow17PostTableViewCell", "captionLabel"]
+- !private ["C6SoFlow17PostTableViewCell", "del"]
+- ["C6SoFlow17PostTableViewCell", "init"]
+- !private ["C6SoFlow17PostTableViewCell", "post"]
+- ["C6SoFlow17PostTableViewCell", "setPost"]
+- ["C6SoFlow17PostTableViewCell", "setSelected"]
+- ["C6SoFlow17PostTableViewCell", "showLink"]
+- ["C6SoFlow17PostTableViewCell", "titleLabel"]
+- !private ["PSs10Streamable", "init"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- ["C6SoFlow24TumblrImageTableViewCell", "Bool"]
+- ["C6SoFlow24TumblrImageTableViewCell", "Post"]
+- ["C6SoFlow24TumblrImageTableViewCell", "SignedInUser"]
+- !private ["C6SoFlow24TumblrImageTableViewCell", "TumblrLinkPost"]
+- ["C6SoFlow24TumblrImageTableViewCell", "UILabel"]
+- !private ["C6SoFlow24TumblrImageTableViewCell", "Utility"]
+- ["C6SoFlow24TumblrImageTableViewCell", "awakeFromNib"]
+- !private ["C6SoFlow24TumblrImageTableViewCell", "captionLabel"]
+- !private ["C6SoFlow24TumblrImageTableViewCell", "del"]
+- ["C6SoFlow24TumblrImageTableViewCell", "init"]
+- !private ["C6SoFlow24TumblrImageTableViewCell", "post"]
+- ["C6SoFlow24TumblrImageTableViewCell", "setPost"]
+- ["C6SoFlow24TumblrImageTableViewCell", "setSelected"]
+- ["C6SoFlow24TumblrImageTableViewCell", "showLink"]
+- ["C6SoFlow24TumblrImageTableViewCell", "titleLabel"]
+- ["C6SoFlow24TumblrImageTableViewCell", ""]
+- !private ["C6SoFlow14TumblrLinkPost", "title"]
+- !private ["C6SoFlow14TumblrLinkPost", "url"]
+- ["C6SoFlow23TumblrLinkTableViewCell", "Bool"]
+- ["C6SoFlow23TumblrLinkTableViewCell", "Post"]
+- ["C6SoFlow23TumblrLinkTableViewCell", "SignedInUser"]
+- !private ["C6SoFlow23TumblrLinkTableViewCell", "TumblrLinkPost"]
+- ["C6SoFlow23TumblrLinkTableViewCell", "UILabel"]
+- !private ["C6SoFlow23TumblrLinkTableViewCell", "Utility"]
+- ["C6SoFlow23TumblrLinkTableViewCell", "awakeFromNib"]
+- !private ["C6SoFlow23TumblrLinkTableViewCell", "captionLabel"]
+- ["C6SoFlow23TumblrLinkTableViewCell", "deinit"]
+- !private ["C6SoFlow23TumblrLinkTableViewCell", "del"]
+- ["C6SoFlow23TumblrLinkTableViewCell", "init"]
+- !private ["C6SoFlow23TumblrLinkTableViewCell", "post"]
+- ["C6SoFlow23TumblrLinkTableViewCell", "setPost"]
+- ["C6SoFlow23TumblrLinkTableViewCell", "setSelected"]
+- ["C6SoFlow23TumblrLinkTableViewCell", "showLink"]
+- ["C6SoFlow23TumblrLinkTableViewCell", "titleLabel"]
+- !private ["C6SoFlow10TumblrPost", "title"]
+- !private ["C6SoFlow10TumblrPost", "url"]
+- ["C6SoFlow19TumblrTableViewCell", "Bool"]
+- ["C6SoFlow19TumblrTableViewCell", "Post"]
+- ["C6SoFlow19TumblrTableViewCell", "SignedInUser"]
+- !private ["C6SoFlow19TumblrTableViewCell", "TumblrLinkPost"]
+- ["C6SoFlow19TumblrTableViewCell", "UILabel"]
+- !private ["C6SoFlow19TumblrTableViewCell", "Utility"]
+- ["C6SoFlow19TumblrTableViewCell", "awakeFromNib"]
+- !private ["C6SoFlow19TumblrTableViewCell", "captionLabel"]
+- !private ["C6SoFlow19TumblrTableViewCell", "del"]
+- ["C6SoFlow19TumblrTableViewCell", "init"]
+- !private ["C6SoFlow19TumblrTableViewCell", "post"]
+- ["C6SoFlow19TumblrTableViewCell", "setPost"]
+- ["C6SoFlow19TumblrTableViewCell", "setSelected"]
+- ["C6SoFlow19TumblrTableViewCell", "showLink"]
+- ["C6SoFlow19TumblrTableViewCell", "titleLabel"]
+- !private ["PSo29UIAccessibilityIdentification", "Utility"]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- !private ["PSo29UIAccessibilityIdentification", "captionLabel"]
+- !private ["PSo29UIAccessibilityIdentification", "del"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "post"]
+- ["PSo29UIAccessibilityIdentification", "setPost"]
+- ["PSo29UIAccessibilityIdentification", "setSelected"]
+- ["PSo29UIAccessibilityIdentification", "showLink"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- ["PSo29UIAccessibilityIdentification", "titleLabel"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "Utility"]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- !private ["PSo12UIAppearance", "captionLabel"]
+- !private ["PSo12UIAppearance", "del"]
+- ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "post"]
+- ["PSo12UIAppearance", "setPost"]
+- ["PSo12UIAppearance", "setSelected"]
+- ["PSo12UIAppearance", "showLink"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo12UIAppearance", "titleLabel"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "Utility"]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- !private ["PSo21UIAppearanceContainer", "captionLabel"]
+- !private ["PSo21UIAppearanceContainer", "del"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "post"]
+- ["PSo21UIAppearanceContainer", "setPost"]
+- ["PSo21UIAppearanceContainer", "setSelected"]
+- ["PSo21UIAppearanceContainer", "showLink"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "titleLabel"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo17UICoordinateSpace", "Utility"]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- !private ["PSo17UICoordinateSpace", "captionLabel"]
+- !private ["PSo17UICoordinateSpace", "del"]
+- ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "post"]
+- ["PSo17UICoordinateSpace", "setPost"]
+- ["PSo17UICoordinateSpace", "setSelected"]
+- ["PSo17UICoordinateSpace", "showLink"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- ["PSo17UICoordinateSpace", "titleLabel"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "Utility"]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- !private ["PSo13UIDynamicItem", "captionLabel"]
+- !private ["PSo13UIDynamicItem", "del"]
+- ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "post"]
+- ["PSo13UIDynamicItem", "setPost"]
+- ["PSo13UIDynamicItem", "setSelected"]
+- ["PSo13UIDynamicItem", "showLink"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo13UIDynamicItem", "titleLabel"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "Utility"]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- !private ["PSo18UIFocusEnvironment", "captionLabel"]
+- !private ["PSo18UIFocusEnvironment", "del"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "post"]
+- ["PSo18UIFocusEnvironment", "setPost"]
+- ["PSo18UIFocusEnvironment", "setSelected"]
+- ["PSo18UIFocusEnvironment", "showLink"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "titleLabel"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo27UIGestureRecognizerDelegate", "Utility"]
+- ["PSo27UIGestureRecognizerDelegate", "awakeFromNib"]
+- !private ["PSo27UIGestureRecognizerDelegate", "captionLabel"]
+- !private ["PSo27UIGestureRecognizerDelegate", "del"]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- !private ["PSo27UIGestureRecognizerDelegate", "post"]
+- ["PSo27UIGestureRecognizerDelegate", "setPost"]
+- ["PSo27UIGestureRecognizerDelegate", "setSelected"]
+- ["PSo27UIGestureRecognizerDelegate", "showLink"]
+- ["PSo27UIGestureRecognizerDelegate", "titleLabel"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "Post"]
+- ["CSo11UIResponder", "SignedInUser"]
+- !private ["CSo11UIResponder", "TumblrLinkPost"]
+- ["CSo11UIResponder", "UILabel"]
+- !private ["CSo11UIResponder", "Utility"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- !private ["CSo11UIResponder", "captionLabel"]
+- !private ["CSo11UIResponder", "del"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "post"]
+- ["CSo11UIResponder", "setPost"]
+- ["CSo11UIResponder", "setSelected"]
+- ["CSo11UIResponder", "showLink"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "titleLabel"]
+- ["CSo15UITableViewCell", "Bool"]
+- ["CSo15UITableViewCell", "Post"]
+- ["CSo15UITableViewCell", "SignedInUser"]
+- !private ["CSo15UITableViewCell", "TumblrLinkPost"]
+- ["CSo15UITableViewCell", "UILabel"]
+- !private ["CSo15UITableViewCell", "Utility"]
+- ["CSo15UITableViewCell", "awakeFromNib"]
+- !private ["CSo15UITableViewCell", "captionLabel"]
+- !private ["CSo15UITableViewCell", "del"]
+- ["CSo15UITableViewCell", "init"]
+- !private ["CSo15UITableViewCell", "post"]
+- ["CSo15UITableViewCell", "setPost"]
+- ["CSo15UITableViewCell", "setSelected"]
+- ["CSo15UITableViewCell", "showLink"]
+- ["CSo15UITableViewCell", "titleLabel"]
+- !private ["PSo18UITraitEnvironment", "Utility"]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- !private ["PSo18UITraitEnvironment", "captionLabel"]
+- !private ["PSo18UITraitEnvironment", "del"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "post"]
+- ["PSo18UITraitEnvironment", "setPost"]
+- ["PSo18UITraitEnvironment", "setSelected"]
+- ["PSo18UITraitEnvironment", "showLink"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "titleLabel"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "Post"]
+- ["CSo6UIView", "SignedInUser"]
+- !private ["CSo6UIView", "TumblrLinkPost"]
+- ["CSo6UIView", "UILabel"]
+- !private ["CSo6UIView", "Utility"]
+- ["CSo6UIView", "awakeFromNib"]
+- !private ["CSo6UIView", "captionLabel"]
+- !private ["CSo6UIView", "del"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "post"]
+- ["CSo6UIView", "setPost"]
+- ["CSo6UIView", "setSelected"]
+- ["CSo6UIView", "showLink"]
+- !private ["CSo6UIView", "text"]
+- ["CSo6UIView", "titleLabel"]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["C6SoFlow7Utility", "openUrl"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs32_FileReferenceLiteralConvertible", "absoluteString"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs12_Reflectable", "Utility"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "absoluteString"]
+- ["PSs12_Reflectable", "awakeFromNib"]
+- !private ["PSs12_Reflectable", "captionLabel"]
+- !private ["PSs12_Reflectable", "del"]
+- ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "post"]
+- ["PSs12_Reflectable", "setPost"]
+- ["PSs12_Reflectable", "setSelected"]
+- ["PSs12_Reflectable", "showLink"]
+- !private ["PSs12_Reflectable", "text"]
+- ["PSs12_Reflectable", "titleLabel"]
+- ["PSs12_Reflectable", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "P6SoFlow12CellDelegate"
+- !private "VSs9Character"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- "PSs8Hashable"
+- !private "SQ"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs14MirrorPathType"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo5NSURL"
+- !private "Sq"
+- !private "PSs16OutputStreamType"
+- !private "C6SoFlow4Post"
+- "C6SoFlow17PostTableViewCell"
+- !private "PSs10Streamable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- "C6SoFlow24TumblrImageTableViewCell"
+- !private "C6SoFlow14TumblrLinkPost"
+- "C6SoFlow23TumblrLinkTableViewCell"
+- !private "C6SoFlow10TumblrPost"
+- "C6SoFlow19TumblrTableViewCell"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo27UIGestureRecognizerDelegate"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "C6SoFlow7Utility"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs32_FileReferenceLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Users/Ben/Documents/Coding/SoFlow/SoFlow/Pods/Crashlytics/Crashlytics.framework/Headers/ANSCompatibility.h"
+- "/Users/Ben/Documents/Coding/SoFlow/SoFlow/Pods/Crashlytics/Crashlytics.framework/Headers/Answers.h"
+- "/Users/Ben/Documents/Coding/SoFlow/SoFlow/Pods/Crashlytics/Crashlytics.framework/Headers/CLSStackFrame.h"
+- "/Users/Ben/Documents/Coding/SoFlow/SoFlow/Pods/Crashlytics/Crashlytics.framework/Headers/CLSReport.h"
+- "/Users/Ben/Documents/Coding/SoFlow/SoFlow/Pods/Crashlytics/Crashlytics.framework/Headers/CLSLogging.h"
+- "/Users/Ben/Documents/Coding/SoFlow/SoFlow/Pods/Crashlytics/Crashlytics.framework/Headers/CLSAttributes.h"
+- "/Users/Ben/Documents/Coding/SoFlow/SoFlow/Pods/Crashlytics/Crashlytics.framework/Headers/Crashlytics.h"
+- "/Users/Ben/Documents/Coding/SoFlow/SoFlow/Pods/Crashlytics/Crashlytics.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreAudio.swiftmodule"
+- "/Users/Ben/Documents/Coding/SoFlow/SoFlow/Pods/Fabric/Fabric.framework/Headers/FABAttributes.h"
+- "/Users/Ben/Documents/Coding/SoFlow/SoFlow/Pods/Fabric/Fabric.framework/Headers/Fabric.h"
+- "/Users/Ben/Documents/Coding/SoFlow/SoFlow/Pods/Fabric/Fabric.framework/Modules/module.modulemap"
+interface-hash: "2d0ff040090587cbf0c540fa14d88e0c"

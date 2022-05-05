@@ -1,0 +1,6 @@
+framework module S4PageControl {
+  umbrella header "S4PageControl-umbrella.h"
+
+  export *
+  module * { export * }
+}
