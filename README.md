@@ -17,5 +17,3 @@ Share content across all of your social accounts from one intuitive window, with
 SoFlow's search pulls profiles and posts from all the social networks you are signed in with, along with SoundCloud tracks you can listen to in the background in a seamless, inbuilt player. 
 
 It brings services from products such as Hootsuite and Buffer to the mainstream market at an accessible price for the average consumer.
-
-It has been in the beta phase for several weeks and launched officially for iPhone on Friday 29 January, costing £2/$2. Future releases are likely to include more social networks, such as LinkedIn, Pinterest and Google+.
