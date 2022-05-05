@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="vev-qK-EJy" customClass="FacebookCommentTableViewCell" customModule="SoFlow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="258"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PwU-At-Ywz">
+                    <rect key="frame" x="12" y="12" width="48" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="PwU-At-Ywz" secondAttribute="height" multiplier="1:1" id="716-4a-LGU"/>
+                        <constraint firstAttribute="width" constant="48" id="8XX-q5-GSC"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Facebook 24px" translatesAutoresizingMaskIntoConstraints="NO" id="HYD-9g-7a3">
+                    <rect key="frame" x="288" y="12" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="hbM-UK-RYY"/>
+                        <constraint firstAttribute="width" constant="20" id="q4V-V2-cJZ"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is the funniest i've ever seen" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IU4-dW-PcC">
+                    <rect key="frame" x="68" y="36" width="240" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" placeholder="YES" id="byl-0m-kyC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MZ6-Os-YTQ">
+                    <rect key="frame" x="68" y="12" width="0.0" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" placeholder="YES" id="L24-B7-nyw"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="XL7-Kh-XfI"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24w" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iFF-al-u23">
+                    <rect key="frame" x="248" y="12" width="32" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="32" id="J97-AM-tM1"/>
+                        <constraint firstAttribute="height" constant="20" id="NpZ-rc-C0T"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Puq-bW-YmE">
+                    <rect key="frame" x="0.0" y="68" width="320" height="190"/>
+                    <constraints>
+                        <constraint firstAttribute="height" priority="999" constant="146" id="Yer-5I-wih"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="PwU-At-Ywz" firstAttribute="leading" secondItem="vev-qK-EJy" secondAttribute="leading" constant="12" id="1sr-DG-5RF"/>
+                <constraint firstItem="IU4-dW-PcC" firstAttribute="leading" secondItem="PwU-At-Ywz" secondAttribute="trailing" constant="8" id="3hC-03-ECD"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="PwU-At-Ywz" secondAttribute="bottom" constant="12" id="4Rc-T2-d6O"/>
+                <constraint firstItem="MZ6-Os-YTQ" firstAttribute="leading" secondItem="PwU-At-Ywz" secondAttribute="trailing" constant="8" id="P72-3B-3e9"/>
+                <constraint firstAttribute="trailing" secondItem="HYD-9g-7a3" secondAttribute="trailing" constant="12" id="RYm-as-wx1"/>
+                <constraint firstAttribute="trailing" secondItem="IU4-dW-PcC" secondAttribute="trailing" constant="12" id="TVb-il-dRB"/>
+                <constraint firstItem="iFF-al-u23" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="MZ6-Os-YTQ" secondAttribute="trailing" constant="8" id="Xep-A4-4us"/>
+                <constraint firstItem="Puq-bW-YmE" firstAttribute="leading" secondItem="vev-qK-EJy" secondAttribute="leading" id="YaI-QH-kil"/>
+                <constraint firstAttribute="trailing" secondItem="Puq-bW-YmE" secondAttribute="trailing" id="c8Y-h7-2bN"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Puq-bW-YmE" secondAttribute="trailing" constant="12" id="i3f-sY-KNH"/>
+                <constraint firstItem="IU4-dW-PcC" firstAttribute="top" secondItem="iFF-al-u23" secondAttribute="bottom" constant="4" id="kBy-pM-cru"/>
+                <constraint firstItem="PwU-At-Ywz" firstAttribute="top" secondItem="vev-qK-EJy" secondAttribute="top" constant="12" id="ly3-eD-GMg"/>
+                <constraint firstItem="Puq-bW-YmE" firstAttribute="top" secondItem="IU4-dW-PcC" secondAttribute="bottom" constant="12" id="mRZ-Sg-dfy"/>
+                <constraint firstItem="HYD-9g-7a3" firstAttribute="top" secondItem="vev-qK-EJy" secondAttribute="top" constant="12" id="mYe-zZ-PbH"/>
+                <constraint firstItem="HYD-9g-7a3" firstAttribute="leading" secondItem="iFF-al-u23" secondAttribute="trailing" constant="8" id="rS4-Fj-K8x"/>
+                <constraint firstItem="MZ6-Os-YTQ" firstAttribute="top" secondItem="vev-qK-EJy" secondAttribute="top" constant="12" id="v0c-Va-nAv"/>
+                <constraint firstItem="iFF-al-u23" firstAttribute="top" secondItem="vev-qK-EJy" secondAttribute="top" constant="12" id="w1q-F5-PaI"/>
+                <constraint firstAttribute="bottom" secondItem="Puq-bW-YmE" secondAttribute="bottom" id="y1i-wZ-cn2"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="i3f-sY-KNH"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="bottomSpace" destination="mRZ-Sg-dfy" id="32g-nC-ul3"/>
+                <outlet property="commentImageView" destination="Puq-bW-YmE" id="SN7-Mh-5vh"/>
+                <outlet property="dateLabel" destination="iFF-al-u23" id="6MM-Kk-NME"/>
+                <outlet property="imageViewHeight" destination="Yer-5I-wih" id="GB3-M3-LVL"/>
+                <outlet property="messageLabel" destination="IU4-dW-PcC" id="JuV-0j-Fbe"/>
+                <outlet property="nameLabel" destination="MZ6-Os-YTQ" id="5aA-mQ-0bh"/>
+                <outlet property="profilePictureImageView" destination="PwU-At-Ywz" id="iC3-hB-fUT"/>
+                <outlet property="serviceTypeImageView" destination="HYD-9g-7a3" id="ve3-Lw-lEz"/>
+            </connections>
+            <point key="canvasLocation" x="360" y="430"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Facebook 24px" width="24" height="24"/>
+    </resources>
+</document>

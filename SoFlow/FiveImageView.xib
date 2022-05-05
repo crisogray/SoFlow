@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ImageView" customModule="SoFlow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="266"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1kK-I3-ELI">
+                    <rect key="frame" x="108" y="162" width="104" height="104"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6dW-cp-dPX">
+                    <rect key="frame" x="216" y="162" width="104" height="104"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QAS-vt-EMF">
+                    <rect key="frame" x="162" y="0.0" width="158" height="158"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8rG-xj-hRS">
+                    <rect key="frame" x="0.0" y="0.0" width="158" height="158"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="8rG-xj-hRS" secondAttribute="height" multiplier="1:1" priority="999" id="wAf-Sa-ewP"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bCQ-l3-rts">
+                    <rect key="frame" x="0.0" y="162" width="104" height="104"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="bCQ-l3-rts" secondAttribute="height" multiplier="1:1" priority="999" id="6hU-KV-7lu"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="8rG-xj-hRS" firstAttribute="width" secondItem="QAS-vt-EMF" secondAttribute="width" id="0IA-f6-ndW"/>
+                <constraint firstItem="bCQ-l3-rts" firstAttribute="height" secondItem="6dW-cp-dPX" secondAttribute="height" id="4Fp-q6-M6l"/>
+                <constraint firstItem="bCQ-l3-rts" firstAttribute="height" secondItem="1kK-I3-ELI" secondAttribute="height" id="57f-mS-gSB"/>
+                <constraint firstItem="6dW-cp-dPX" firstAttribute="top" secondItem="QAS-vt-EMF" secondAttribute="bottom" constant="4" id="6tt-Qo-guw"/>
+                <constraint firstItem="bCQ-l3-rts" firstAttribute="top" secondItem="8rG-xj-hRS" secondAttribute="bottom" constant="4" id="FJM-8W-HN2"/>
+                <constraint firstAttribute="trailing" secondItem="QAS-vt-EMF" secondAttribute="trailing" id="Ie0-Uq-BSp"/>
+                <constraint firstItem="bCQ-l3-rts" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="JwE-ul-jSg"/>
+                <constraint firstItem="1kK-I3-ELI" firstAttribute="top" secondItem="8rG-xj-hRS" secondAttribute="bottom" constant="4" id="K77-eu-cFe"/>
+                <constraint firstItem="bCQ-l3-rts" firstAttribute="width" secondItem="1kK-I3-ELI" secondAttribute="width" id="Kfs-Dm-8Qj"/>
+                <constraint firstItem="8rG-xj-hRS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="MVo-1K-yuB"/>
+                <constraint firstItem="QAS-vt-EMF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="RHg-dN-PiF"/>
+                <constraint firstItem="8rG-xj-hRS" firstAttribute="height" secondItem="QAS-vt-EMF" secondAttribute="height" id="RvV-zO-va7"/>
+                <constraint firstItem="1kK-I3-ELI" firstAttribute="top" secondItem="8rG-xj-hRS" secondAttribute="bottom" constant="4" id="bbc-Hy-fAE"/>
+                <constraint firstAttribute="bottom" secondItem="1kK-I3-ELI" secondAttribute="bottom" id="cNX-Sa-eoN"/>
+                <constraint firstItem="bCQ-l3-rts" firstAttribute="width" secondItem="6dW-cp-dPX" secondAttribute="width" id="gm7-8A-Jsg"/>
+                <constraint firstAttribute="bottom" secondItem="bCQ-l3-rts" secondAttribute="bottom" id="hug-9l-FqJ"/>
+                <constraint firstItem="QAS-vt-EMF" firstAttribute="leading" secondItem="8rG-xj-hRS" secondAttribute="trailing" constant="4" id="iXk-Vs-EAM"/>
+                <constraint firstItem="8rG-xj-hRS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="jSI-v6-oP4"/>
+                <constraint firstItem="6dW-cp-dPX" firstAttribute="leading" secondItem="1kK-I3-ELI" secondAttribute="trailing" constant="4" id="kR5-y8-LyE"/>
+                <constraint firstAttribute="trailing" secondItem="6dW-cp-dPX" secondAttribute="trailing" id="tIV-nF-3Ve"/>
+                <constraint firstItem="1kK-I3-ELI" firstAttribute="leading" secondItem="bCQ-l3-rts" secondAttribute="trailing" constant="4" id="ytx-Bo-hMS"/>
+                <constraint firstAttribute="bottom" secondItem="6dW-cp-dPX" secondAttribute="bottom" id="zv5-0S-fCy"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imageView1" destination="8rG-xj-hRS" id="Jmd-99-LE3"/>
+                <outlet property="imageView2" destination="QAS-vt-EMF" id="fer-Pb-eBa"/>
+                <outlet property="imageView3" destination="bCQ-l3-rts" id="AUe-cK-AUW"/>
+                <outlet property="imageView4" destination="1kK-I3-ELI" id="fsG-TU-DLY"/>
+                <outlet property="imageView5" destination="6dW-cp-dPX" id="Abk-gR-DJT"/>
+            </connections>
+            <point key="canvasLocation" x="192" y="37"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

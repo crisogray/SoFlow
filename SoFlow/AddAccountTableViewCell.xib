@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AddAccountTableViewCell" customModule="SoFlow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="003-l3-9nV">
+                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="200"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="Np1-J1-b5c"/>
+                        <constraint firstAttribute="width" id="dSN-5b-ZC7"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Twitter 64px" translatesAutoresizingMaskIntoConstraints="NO" id="FXf-Dt-mso">
+                    <rect key="frame" x="128" y="68" width="64" height="64"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="9aq-h0-rPv"/>
+                        <constraint firstAttribute="width" secondItem="FXf-Dt-mso" secondAttribute="height" multiplier="1:1" id="oSt-Oi-mfD"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="003-l3-9nV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="1kK-Hb-blx"/>
+                <constraint firstAttribute="bottom" secondItem="003-l3-9nV" secondAttribute="bottom" id="N84-01-dNj"/>
+                <constraint firstItem="FXf-Dt-mso" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="TQe-8O-wXd"/>
+                <constraint firstItem="003-l3-9nV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="f7Q-Qv-SCb"/>
+                <constraint firstItem="FXf-Dt-mso" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="gP6-0G-F1A"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="heightConstraint" destination="Np1-J1-b5c" id="DIU-p9-qur"/>
+                <outlet property="serviceImageView" destination="FXf-Dt-mso" id="VW5-eb-9tF"/>
+            </connections>
+            <point key="canvasLocation" x="192" y="-2"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Twitter 64px" width="64" height="64"/>
+    </resources>
+</document>

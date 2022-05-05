@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="UserCollectionViewCell" customModule="SoFlow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jvL-av-Xb6">
+                    <rect key="frame" x="8" y="78" width="72" height="5"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="5" id="xEL-QG-TRR"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RZP-d3-I2h">
+                    <rect key="frame" x="80" y="78" width="72" height="5"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="5" id="lC9-24-SFA"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TDt-yf-S5L">
+                    <rect key="frame" x="8" y="13.5" width="144" height="134.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ben Crisóstomo Gray" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="paJ-w6-jTT">
+                            <rect key="frame" x="0.0" y="88" width="144" height="38.5"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Xih-ov-oan">
+                            <rect key="frame" x="36" y="8" width="72" height="72"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="Xih-ov-oan" secondAttribute="height" multiplier="1:1" id="Uf8-QC-lqE"/>
+                            </constraints>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Twitter 24px" translatesAutoresizingMaskIntoConstraints="NO" id="Vis-a8-4UV">
+                            <rect key="frame" x="84" y="58" width="24" height="24"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="YF6-hg-7tI"/>
+                                <constraint firstAttribute="width" constant="24" id="rcE-hH-aje"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="paJ-w6-jTT" secondAttribute="trailing" id="8DP-MT-Krk"/>
+                        <constraint firstItem="Xih-ov-oan" firstAttribute="top" secondItem="TDt-yf-S5L" secondAttribute="top" constant="8" id="Eca-JW-maM"/>
+                        <constraint firstAttribute="bottom" secondItem="paJ-w6-jTT" secondAttribute="bottom" constant="8" id="J5H-af-XXe"/>
+                        <constraint firstItem="Vis-a8-4UV" firstAttribute="trailing" secondItem="Xih-ov-oan" secondAttribute="trailing" id="KRX-de-9Xj"/>
+                        <constraint firstItem="paJ-w6-jTT" firstAttribute="leading" secondItem="TDt-yf-S5L" secondAttribute="leading" id="bEc-jj-bl1"/>
+                        <constraint firstItem="paJ-w6-jTT" firstAttribute="leading" secondItem="TDt-yf-S5L" secondAttribute="leading" id="bGB-pC-b3u"/>
+                        <constraint firstAttribute="trailing" secondItem="paJ-w6-jTT" secondAttribute="trailing" id="cG3-Fu-9Tr"/>
+                        <constraint firstItem="Xih-ov-oan" firstAttribute="centerX" secondItem="TDt-yf-S5L" secondAttribute="centerX" id="ema-XN-Shc"/>
+                        <constraint firstItem="Vis-a8-4UV" firstAttribute="baseline" secondItem="Xih-ov-oan" secondAttribute="baseline" constant="2" id="m7m-Cq-kj7"/>
+                        <constraint firstItem="paJ-w6-jTT" firstAttribute="top" secondItem="Xih-ov-oan" secondAttribute="bottom" constant="8" id="wzq-b4-y66"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="jvL-av-Xb6" firstAttribute="width" secondItem="RZP-d3-I2h" secondAttribute="width" id="8yd-HW-lq7"/>
+                <constraint firstItem="jvL-av-Xb6" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="N2K-eC-EnZ"/>
+                <constraint firstItem="TDt-yf-S5L" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="N7n-cW-b2S"/>
+                <constraint firstItem="RZP-d3-I2h" firstAttribute="leading" secondItem="jvL-av-Xb6" secondAttribute="trailing" id="Q4I-T6-JQi"/>
+                <constraint firstAttribute="trailing" secondItem="TDt-yf-S5L" secondAttribute="trailing" constant="8" id="SqJ-zY-AId"/>
+                <constraint firstItem="TDt-yf-S5L" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Z0N-oQ-O9K"/>
+                <constraint firstItem="RZP-d3-I2h" firstAttribute="centerY" secondItem="TDt-yf-S5L" secondAttribute="centerY" id="ZXq-yX-3Rl"/>
+                <constraint firstItem="jvL-av-Xb6" firstAttribute="centerY" secondItem="TDt-yf-S5L" secondAttribute="centerY" id="eEw-Kr-kj3"/>
+                <constraint firstAttribute="trailing" secondItem="RZP-d3-I2h" secondAttribute="trailing" constant="8" id="eZO-0S-YcE"/>
+                <constraint firstItem="Xih-ov-oan" firstAttribute="width" secondItem="jvL-av-Xb6" secondAttribute="width" id="h4m-Zk-RoG"/>
+                <constraint firstItem="RZP-d3-I2h" firstAttribute="leading" secondItem="jvL-av-Xb6" secondAttribute="trailing" id="x4P-tQ-Ehl"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imageView" destination="Xih-ov-oan" id="vyp-8B-VdS"/>
+                <outlet property="nameLabel" destination="paJ-w6-jTT" id="PZ1-7I-Kt4"/>
+                <outlet property="serviceTypeImageView" destination="Vis-a8-4UV" id="mYD-L3-qeb"/>
+            </connections>
+            <point key="canvasLocation" x="206" y="63"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Twitter 24px" width="24" height="24"/>
+    </resources>
+</document>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iUX-3o-bjv" customClass="SoundCloudCommentTableViewCell" customModule="SoFlow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="76"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bZ6-Zy-opT">
+                    <rect key="frame" x="12" y="12" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="RaI-OM-GsP"/>
+                        <constraint firstAttribute="height" constant="40" id="gLw-ye-UWP"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X4t-T7-o26">
+                    <rect key="frame" x="248" y="12" width="32" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" priority="999" constant="20" id="Ehx-my-Fh0"/>
+                        <constraint firstAttribute="width" constant="32" id="KYa-DV-LhN"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jcD-cl-PXg">
+                    <rect key="frame" x="60" y="12" width="180" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="180" placeholder="YES" id="fnT-Ak-cY5"/>
+                        <constraint firstAttribute="height" priority="999" constant="20" id="rs6-tb-wN2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mhw-ur-bjH">
+                    <rect key="frame" x="60" y="36" width="248" height="28"/>
+                    <color key="tintColor" red="0.44705882349999998" green="0.71764705880000002" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SoundCloud 24px" translatesAutoresizingMaskIntoConstraints="NO" id="Bzk-Yj-SDr">
+                    <rect key="frame" x="288" y="12" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="hei-bY-Qzp"/>
+                        <constraint firstAttribute="height" priority="999" constant="20" id="jDg-LJ-Pl8"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="bZ6-Zy-opT" firstAttribute="top" secondItem="iUX-3o-bjv" secondAttribute="top" constant="12" id="0Er-t3-LjL"/>
+                <constraint firstItem="X4t-T7-o26" firstAttribute="bottom" secondItem="jcD-cl-PXg" secondAttribute="bottom" id="3VP-DD-Cd6"/>
+                <constraint firstItem="bZ6-Zy-opT" firstAttribute="leading" secondItem="iUX-3o-bjv" secondAttribute="leading" constant="12" id="3Yx-QN-ygv"/>
+                <constraint firstItem="Bzk-Yj-SDr" firstAttribute="centerY" secondItem="X4t-T7-o26" secondAttribute="centerY" id="50E-ov-30v"/>
+                <constraint firstItem="Mhw-ur-bjH" firstAttribute="top" secondItem="jcD-cl-PXg" secondAttribute="bottom" constant="4" id="6i6-wx-gJf"/>
+                <constraint firstItem="Mhw-ur-bjH" firstAttribute="leading" secondItem="iUX-3o-bjv" secondAttribute="leading" constant="60" id="8Zn-xn-3nS"/>
+                <constraint firstItem="jcD-cl-PXg" firstAttribute="top" secondItem="iUX-3o-bjv" secondAttribute="top" constant="12" id="K72-RJ-QwE"/>
+                <constraint firstItem="Bzk-Yj-SDr" firstAttribute="leading" secondItem="X4t-T7-o26" secondAttribute="trailing" constant="8" id="KLu-ME-KXk"/>
+                <constraint firstItem="jcD-cl-PXg" firstAttribute="leading" secondItem="bZ6-Zy-opT" secondAttribute="trailing" constant="8" id="Xxx-Z3-eAx"/>
+                <constraint firstAttribute="bottom" secondItem="Mhw-ur-bjH" secondAttribute="bottom" constant="12" id="akI-Cj-KPX"/>
+                <constraint firstAttribute="trailing" secondItem="Mhw-ur-bjH" secondAttribute="trailing" constant="12" id="cdZ-OS-9t2"/>
+                <constraint firstAttribute="trailing" secondItem="Bzk-Yj-SDr" secondAttribute="trailing" constant="12" id="gi3-o6-Kk0"/>
+                <constraint firstItem="X4t-T7-o26" firstAttribute="top" secondItem="jcD-cl-PXg" secondAttribute="top" id="mKd-wG-o1a"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="dateLabel" destination="X4t-T7-o26" id="jbK-5z-ZK1"/>
+                <outlet property="messageLabel" destination="Mhw-ur-bjH" id="Oc2-T6-l2i"/>
+                <outlet property="nameLabel" destination="jcD-cl-PXg" id="c1n-CL-n2D"/>
+                <outlet property="profilePictureImageView" destination="bZ6-Zy-opT" id="CK7-UB-efZ"/>
+                <outlet property="serviceTypeImageView" destination="Bzk-Yj-SDr" id="NtL-bF-CyX"/>
+            </connections>
+            <point key="canvasLocation" x="456" y="-23"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="SoundCloud 24px" width="24" height="24"/>
+    </resources>
+</document>

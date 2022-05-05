@@ -6,12 +6,19 @@
 	<dict>
 		<key>SoFlow.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>B59031E41B84D57100EF999F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>B5B2EA841B3163BB00AC5C25</key>
 		<dict>
 			<key>primary</key>

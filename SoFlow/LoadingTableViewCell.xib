@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LoadingTableViewCell" customModule="SoFlow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="53"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="vwY-GO-bCa">
+                    <rect key="frame" x="150" y="12" width="20" height="29"/>
+                    <color key="color" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="vwY-GO-bCa" secondAttribute="centerX" id="D2X-gD-CSq"/>
+                <constraint firstAttribute="centerY" secondItem="vwY-GO-bCa" secondAttribute="centerY" id="i2d-E0-OQl"/>
+                <constraint firstAttribute="bottom" secondItem="vwY-GO-bCa" secondAttribute="bottom" constant="12" id="mN8-7g-Mec"/>
+                <constraint firstItem="vwY-GO-bCa" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="12" id="q8O-RH-rbe"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="activityIndicator" destination="vwY-GO-bCa" id="Goq-tR-90Z"/>
+            </connections>
+            <point key="canvasLocation" x="309" y="215"/>
+        </view>
+    </objects>
+</document>

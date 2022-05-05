@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ImageView" customModule="SoFlow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="T7o-bs-2Xz">
+                    <rect key="frame" x="0.0" y="0.0" width="158" height="160"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="z2w-ws-hdw">
+                    <rect key="frame" x="162" y="0.0" width="158" height="160"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="z2w-ws-hdw" firstAttribute="width" secondItem="T7o-bs-2Xz" secondAttribute="width" id="BeA-s5-pZ4"/>
+                <constraint firstAttribute="bottom" secondItem="T7o-bs-2Xz" secondAttribute="bottom" id="UEe-eU-fWH"/>
+                <constraint firstItem="z2w-ws-hdw" firstAttribute="leading" secondItem="T7o-bs-2Xz" secondAttribute="trailing" constant="4" id="XAl-d0-ypU"/>
+                <constraint firstAttribute="bottom" secondItem="z2w-ws-hdw" secondAttribute="bottom" id="Y99-2C-q78"/>
+                <constraint firstAttribute="trailing" secondItem="z2w-ws-hdw" secondAttribute="trailing" id="rp2-gn-KjI"/>
+                <constraint firstItem="T7o-bs-2Xz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="wfy-J6-vC4"/>
+                <constraint firstItem="T7o-bs-2Xz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="xWV-4S-ykh"/>
+                <constraint firstItem="z2w-ws-hdw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="zLy-z0-gLk"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imageView1" destination="T7o-bs-2Xz" id="YR4-MA-Ooc"/>
+                <outlet property="imageView2" destination="z2w-ws-hdw" id="RsB-2s-cnl"/>
+            </connections>
+            <point key="canvasLocation" x="225" y="273"/>
+        </view>
+    </objects>
+</document>

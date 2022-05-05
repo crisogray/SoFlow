@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="ISX-wn-jaY" customClass="MapTableViewCell" customModule="SoFlow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="162"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="7Ux-0p-a7w">
+                    <rect key="frame" x="12" y="12" width="296" height="138"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="7Ux-0p-a7w" secondAttribute="height" multiplier="37:21" priority="999" id="Zzo-Jr-cTc"/>
+                        <constraint firstAttribute="width" secondItem="7Ux-0p-a7w" secondAttribute="height" multiplier="148:69" priority="999" id="jDE-q0-Fcj"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Zzo-Jr-cTc"/>
+                        </mask>
+                    </variation>
+                </mapView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="7Ux-0p-a7w" firstAttribute="leading" secondItem="ISX-wn-jaY" secondAttribute="leading" constant="12" id="GXj-yL-eIb"/>
+                <constraint firstAttribute="trailing" secondItem="7Ux-0p-a7w" secondAttribute="trailing" constant="12" id="cgq-YA-rMK"/>
+                <constraint firstItem="7Ux-0p-a7w" firstAttribute="top" secondItem="ISX-wn-jaY" secondAttribute="top" constant="12" id="pdA-lh-Gaw"/>
+                <constraint firstAttribute="bottom" secondItem="7Ux-0p-a7w" secondAttribute="bottom" constant="12" id="tSG-qc-9lQ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="map" destination="7Ux-0p-a7w" id="zv2-Zu-bId"/>
+            </connections>
+            <point key="canvasLocation" x="214" y="81"/>
+        </view>
+    </objects>
+</document>

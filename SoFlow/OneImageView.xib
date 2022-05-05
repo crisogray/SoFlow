@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ImageView" customModule="SoFlow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5Pz-4e-ifc">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+                    <animations/>
+                </imageView>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iYx-kn-ZL2">
+                    <rect key="frame" x="140" y="140" width="40" height="40"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.1176470588" green="0.70588235290000001" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="5sS-34-rwX"/>
+                        <constraint firstAttribute="width" constant="40" id="JUz-yx-ZuQ"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <size key="titleShadowOffset" width="8" height="8"/>
+                    <state key="normal" image="Play 24px"/>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="5Pz-4e-ifc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="47R-GA-uUy"/>
+                <constraint firstAttribute="trailing" secondItem="5Pz-4e-ifc" secondAttribute="trailing" id="ARE-2n-csH"/>
+                <constraint firstItem="5Pz-4e-ifc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="B5I-Lr-rgS"/>
+                <constraint firstAttribute="bottom" secondItem="5Pz-4e-ifc" secondAttribute="bottom" id="b4s-gp-xLN"/>
+                <constraint firstItem="iYx-kn-ZL2" firstAttribute="centerX" secondItem="5Pz-4e-ifc" secondAttribute="centerX" id="fSe-ek-Xjx"/>
+                <constraint firstItem="iYx-kn-ZL2" firstAttribute="centerY" secondItem="5Pz-4e-ifc" secondAttribute="centerY" id="ndb-hh-TdV"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imageView1" destination="5Pz-4e-ifc" id="mvl-o8-j6G"/>
+                <outlet property="videoButton" destination="iYx-kn-ZL2" id="6HL-hf-9T6"/>
+            </connections>
+            <point key="canvasLocation" x="355" y="353"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Play 24px" width="24" height="24"/>
+    </resources>
+</document>

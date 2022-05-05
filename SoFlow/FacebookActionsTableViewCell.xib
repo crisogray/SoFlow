@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ActionsTableViewCell" customModule="SoFlow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="48"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Us0-Ze-TwM">
+                    <rect key="frame" x="12" y="14" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="Bc3-TY-N9C"/>
+                        <constraint firstAttribute="height" constant="20" id="iaY-2C-5zr"/>
+                    </constraints>
+                    <state key="normal" image="Like 20px">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="like:" destination="iN0-l3-epB" eventType="touchUpInside" id="dX4-1U-Uy3"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ur-rO-5lA">
+                    <rect key="frame" x="63" y="14" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="OGh-5y-bPW"/>
+                        <constraint firstAttribute="height" constant="20" id="P5X-k9-hHr"/>
+                    </constraints>
+                    <state key="normal" image="Comment 20px">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="comment:" destination="iN0-l3-epB" eventType="touchUpInside" id="p1v-C6-zU6"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3YR-Z3-baw">
+                    <rect key="frame" x="288" y="14" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="c6P-Vu-wyb"/>
+                        <constraint firstAttribute="height" constant="20" id="evm-Jt-F24"/>
+                    </constraints>
+                    <state key="normal" image="Share 20px">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="share:" destination="iN0-l3-epB" eventType="touchUpInside" id="pR2-ea-B4B"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="3YR-Z3-baw" secondAttribute="trailing" constant="12" id="21K-jM-Eo5"/>
+                <constraint firstAttribute="centerY" secondItem="Us0-Ze-TwM" secondAttribute="centerY" id="75p-2z-Z66"/>
+                <constraint firstAttribute="centerY" secondItem="3YR-Z3-baw" secondAttribute="centerY" id="Kxy-gq-YWY"/>
+                <constraint firstAttribute="centerY" secondItem="9Ur-rO-5lA" secondAttribute="centerY" id="PwG-dD-cBb"/>
+                <constraint firstItem="9Ur-rO-5lA" firstAttribute="leading" secondItem="Us0-Ze-TwM" secondAttribute="trailing" constant="31" id="vz5-cx-CfL"/>
+                <constraint firstItem="Us0-Ze-TwM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="y3u-6f-NNR"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="facebookCommentButton" destination="9Ur-rO-5lA" id="nOc-p3-aAB"/>
+                <outlet property="facebookLikeButton" destination="Us0-Ze-TwM" id="nE4-h7-yVI"/>
+            </connections>
+            <point key="canvasLocation" x="305" y="357"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Comment 20px" width="20" height="20"/>
+        <image name="Like 20px" width="20" height="20"/>
+        <image name="Share 20px" width="20" height="20"/>
+    </resources>
+</document>

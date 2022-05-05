@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="DK8-W7-6Xx" customClass="InstagramCommentTableViewCell" customModule="SoFlow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="96"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="A0e-H5-fhw">
+                    <rect key="frame" x="12" y="12" width="48" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="C5M-YB-8sw"/>
+                        <constraint firstAttribute="width" constant="48" id="XDS-c8-uXw"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IuN-uA-SOM">
+                    <rect key="frame" x="248" y="12" width="32" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" priority="999" constant="20" id="Cu7-QI-FcI"/>
+                        <constraint firstAttribute="width" constant="32" id="f1G-xZ-HjJ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kM2-vQ-aT1">
+                    <rect key="frame" x="68" y="12" width="180" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" priority="999" constant="20" id="HuV-Hv-X8Z"/>
+                        <constraint firstAttribute="width" constant="180" placeholder="YES" id="IOg-Ts-suo"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KsG-Pn-Xrd" customClass="KILabel">
+                    <rect key="frame" x="68" y="36" width="240" height="48"/>
+                    <color key="tintColor" red="0.1176470588" green="0.70588235290000001" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Instagram 24px" translatesAutoresizingMaskIntoConstraints="NO" id="0TM-an-9Sp">
+                    <rect key="frame" x="288" y="12" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" priority="999" constant="20" id="C0A-YA-S9y"/>
+                        <constraint firstAttribute="width" constant="20" id="ROR-Bh-Awu"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="IuN-uA-SOM" firstAttribute="top" secondItem="kM2-vQ-aT1" secondAttribute="top" id="9eM-Ju-eem"/>
+                <constraint firstItem="A0e-H5-fhw" firstAttribute="leading" secondItem="DK8-W7-6Xx" secondAttribute="leading" constant="12" id="9h1-Xl-jr5"/>
+                <constraint firstItem="A0e-H5-fhw" firstAttribute="top" secondItem="DK8-W7-6Xx" secondAttribute="top" constant="12" id="C5g-CX-qwo"/>
+                <constraint firstAttribute="bottom" secondItem="KsG-Pn-Xrd" secondAttribute="bottom" constant="12" id="DYn-Sx-nes"/>
+                <constraint firstAttribute="trailing" secondItem="KsG-Pn-Xrd" secondAttribute="trailing" constant="12" id="MyO-9p-rQ7"/>
+                <constraint firstItem="kM2-vQ-aT1" firstAttribute="leading" secondItem="A0e-H5-fhw" secondAttribute="trailing" constant="8" id="Ob3-9P-4jZ"/>
+                <constraint firstItem="KsG-Pn-Xrd" firstAttribute="leading" secondItem="DK8-W7-6Xx" secondAttribute="leading" constant="68" id="RJw-H9-RhD"/>
+                <constraint firstItem="0TM-an-9Sp" firstAttribute="top" secondItem="IuN-uA-SOM" secondAttribute="top" id="a0I-dW-KHA"/>
+                <constraint firstItem="KsG-Pn-Xrd" firstAttribute="top" secondItem="kM2-vQ-aT1" secondAttribute="bottom" constant="4" id="cUF-nB-7XP"/>
+                <constraint firstAttribute="trailing" secondItem="0TM-an-9Sp" secondAttribute="trailing" constant="12" id="gXZ-N5-RqW"/>
+                <constraint firstItem="IuN-uA-SOM" firstAttribute="bottom" secondItem="kM2-vQ-aT1" secondAttribute="bottom" id="j0P-3v-vGo"/>
+                <constraint firstItem="kM2-vQ-aT1" firstAttribute="top" secondItem="DK8-W7-6Xx" secondAttribute="top" constant="12" id="pUW-LV-7tx"/>
+                <constraint firstItem="0TM-an-9Sp" firstAttribute="leading" secondItem="IuN-uA-SOM" secondAttribute="trailing" constant="8" id="rpw-7i-l4W"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="dateLabel" destination="IuN-uA-SOM" id="OHQ-Be-T8H"/>
+                <outlet property="messageLabel" destination="KsG-Pn-Xrd" id="vQM-b7-Thd"/>
+                <outlet property="nameLabel" destination="kM2-vQ-aT1" id="5GB-Lm-ntb"/>
+                <outlet property="profilePictureImageView" destination="A0e-H5-fhw" id="0JB-bk-bNc"/>
+                <outlet property="serviceTypeImageView" destination="0TM-an-9Sp" id="uoA-BS-cmm"/>
+            </connections>
+            <point key="canvasLocation" x="456" y="-23"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Instagram 24px" width="24" height="24"/>
+    </resources>
+</document>

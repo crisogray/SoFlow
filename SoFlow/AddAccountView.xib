@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AddAccountView" customModule="SoFlow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="400"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S15-m2-3lP">
+                    <rect key="frame" x="12" y="163" width="144" height="143"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.31764705879999999" green="0.49803921569999998" blue="0.64313725489999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" image="Instagram White 64px"/>
+                    <connections>
+                        <action selector="authInstagram" destination="iN0-l3-epB" eventType="touchUpInside" id="Po2-Rq-8l9"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2OW-pH-kW3">
+                    <rect key="frame" x="164" y="163" width="144" height="143"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.20784313725490194" green="0.27450980392156865" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" image="Tumblr White 64px">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="authTumblr" destination="iN0-l3-epB" eventType="touchUpInside" id="abi-pG-g7I"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U3c-gR-j70">
+                    <rect key="frame" x="164" y="12" width="144" height="143"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.33333333329999998" green="0.67450980390000004" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" image="Twitter White 64px"/>
+                    <connections>
+                        <action selector="authTwitter" destination="iN0-l3-epB" eventType="touchUpInside" id="ZIM-qx-BdH"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QTK-q5-0Du">
+                    <rect key="frame" x="12" y="12" width="144" height="143"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.22352941176470587" green="0.3411764705882353" blue="0.60392156862745094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" image="Facebook F 64px"/>
+                    <connections>
+                        <action selector="authFacebook" destination="iN0-l3-epB" eventType="touchUpInside" id="da7-8G-On4"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="82O-AD-ezr">
+                    <rect key="frame" x="12" y="314" width="296" height="74"/>
+                    <animations/>
+                    <color key="backgroundColor" red="1" green="0.3294117647" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="82O-AD-ezr" secondAttribute="height" multiplier="4:1" id="EXO-wS-W8x"/>
+                    </constraints>
+                    <color key="tintColor" red="1" green="0.32941176470588235" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" image="SoundCloud White"/>
+                    <connections>
+                        <action selector="authSoundCloud" destination="iN0-l3-epB" eventType="touchUpInside" id="p8E-mT-gDx"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="82O-AD-ezr" firstAttribute="top" secondItem="2OW-pH-kW3" secondAttribute="bottom" constant="8" id="7n5-lb-csk"/>
+                <constraint firstItem="U3c-gR-j70" firstAttribute="width" secondItem="S15-m2-3lP" secondAttribute="width" id="8Dq-0b-qmp"/>
+                <constraint firstAttribute="trailing" secondItem="2OW-pH-kW3" secondAttribute="trailing" constant="12" id="8xi-GC-ACY"/>
+                <constraint firstItem="82O-AD-ezr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="D30-Dr-8Pv"/>
+                <constraint firstItem="S15-m2-3lP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="InH-NW-Rqx"/>
+                <constraint firstItem="QTK-q5-0Du" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="L6j-J3-0s5"/>
+                <constraint firstItem="2OW-pH-kW3" firstAttribute="top" secondItem="U3c-gR-j70" secondAttribute="bottom" constant="8" id="Q3n-L4-Hdf"/>
+                <constraint firstItem="2OW-pH-kW3" firstAttribute="leading" secondItem="S15-m2-3lP" secondAttribute="trailing" constant="8" id="TIL-XH-sAh"/>
+                <constraint firstItem="82O-AD-ezr" firstAttribute="top" secondItem="S15-m2-3lP" secondAttribute="bottom" constant="8" id="Vdd-C5-dnF"/>
+                <constraint firstItem="U3c-gR-j70" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="12" id="WqN-p1-8cB"/>
+                <constraint firstAttribute="trailing" secondItem="U3c-gR-j70" secondAttribute="trailing" constant="12" id="XaT-gm-ryX"/>
+                <constraint firstItem="U3c-gR-j70" firstAttribute="height" secondItem="S15-m2-3lP" secondAttribute="height" id="Zpy-ZQ-w1J"/>
+                <constraint firstAttribute="trailing" secondItem="82O-AD-ezr" secondAttribute="trailing" constant="12" id="aeY-rr-6yY"/>
+                <constraint firstItem="U3c-gR-j70" firstAttribute="leading" secondItem="QTK-q5-0Du" secondAttribute="trailing" constant="8" id="bgo-oL-ajb"/>
+                <constraint firstAttribute="bottom" secondItem="82O-AD-ezr" secondAttribute="bottom" constant="12" id="ca0-Vx-0GZ"/>
+                <constraint firstItem="S15-m2-3lP" firstAttribute="top" secondItem="QTK-q5-0Du" secondAttribute="bottom" constant="8" id="lx2-hS-iR6"/>
+                <constraint firstItem="U3c-gR-j70" firstAttribute="width" secondItem="2OW-pH-kW3" secondAttribute="width" id="p1N-rj-tnG"/>
+                <constraint firstItem="U3c-gR-j70" firstAttribute="width" secondItem="QTK-q5-0Du" secondAttribute="width" id="rmg-SR-cm6"/>
+                <constraint firstItem="U3c-gR-j70" firstAttribute="height" secondItem="2OW-pH-kW3" secondAttribute="height" id="vnQ-ZS-HXK"/>
+                <constraint firstItem="U3c-gR-j70" firstAttribute="height" secondItem="QTK-q5-0Du" secondAttribute="height" id="xfq-0v-kfR"/>
+                <constraint firstItem="QTK-q5-0Du" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="12" id="yDT-VO-u5Y"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="449" y="533"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Facebook F 64px" width="64" height="64"/>
+        <image name="Instagram White 64px" width="64" height="64"/>
+        <image name="SoundCloud White" width="57" height="40"/>
+        <image name="Tumblr White 64px" width="64" height="64"/>
+        <image name="Twitter White 64px" width="64" height="64"/>
+    </resources>
+</document>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="UserTableViewCell" customModule="SoFlow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="72"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dee-iH-Cna">
+                    <rect key="frame" x="12" y="12" width="48" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="48" id="cae-cG-3eD"/>
+                        <constraint firstAttribute="height" constant="48" id="i2g-fw-G7A"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fjV-Ir-YEr">
+                    <rect key="frame" x="284" y="24" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="24" id="MkI-gY-T2t"/>
+                        <constraint firstAttribute="height" constant="24" id="bxq-pM-d9Z"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z9K-Ow-bon">
+                    <rect key="frame" x="68" y="16" width="204" height="40.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ben Crisóstomo Gray" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="emy-MO-26T">
+                            <rect key="frame" x="0.0" y="0.0" width="166" height="20.5"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="KYI-6i-zcc"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@BCGray00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b1o-Xn-ZXP">
+                            <rect key="frame" x="0.0" y="20.5" width="83" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="WVI-1q-mIv"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Verified 16px" translatesAutoresizingMaskIntoConstraints="NO" id="Giz-9u-75a">
+                            <rect key="frame" x="170" y="2.5" width="16" height="16"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="16" id="QcY-Xa-gm7"/>
+                                <constraint firstAttribute="width" constant="16" id="hIJ-YB-MU0"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="b1o-Xn-ZXP" firstAttribute="leading" secondItem="Z9K-Ow-bon" secondAttribute="leading" id="JIf-El-yvf"/>
+                        <constraint firstItem="emy-MO-26T" firstAttribute="top" secondItem="Z9K-Ow-bon" secondAttribute="top" id="Jau-ld-Yrf"/>
+                        <constraint firstItem="Giz-9u-75a" firstAttribute="centerY" secondItem="emy-MO-26T" secondAttribute="centerY" id="O7c-Zg-CFF"/>
+                        <constraint firstItem="b1o-Xn-ZXP" firstAttribute="top" secondItem="emy-MO-26T" secondAttribute="bottom" id="P7G-xg-8ah"/>
+                        <constraint firstItem="Giz-9u-75a" firstAttribute="leading" secondItem="emy-MO-26T" secondAttribute="trailing" constant="4" id="T9G-Bg-bib"/>
+                        <constraint firstAttribute="bottom" secondItem="b1o-Xn-ZXP" secondAttribute="bottom" id="ZeJ-w0-RVj"/>
+                        <constraint firstItem="emy-MO-26T" firstAttribute="leading" secondItem="Z9K-Ow-bon" secondAttribute="leading" id="e8Q-6e-fL3"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Giz-9u-75a" secondAttribute="trailing" id="lCM-Dd-Pno"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="dee-iH-Cna" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="12" id="Ejc-uX-xKP"/>
+                <constraint firstItem="dee-iH-Cna" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="JWo-dl-7ti"/>
+                <constraint firstItem="Z9K-Ow-bon" firstAttribute="centerY" secondItem="dee-iH-Cna" secondAttribute="centerY" id="a9f-RJ-Uux"/>
+                <constraint firstAttribute="trailing" secondItem="fjV-Ir-YEr" secondAttribute="trailing" constant="12" id="aj0-rp-K8E"/>
+                <constraint firstAttribute="centerY" secondItem="fjV-Ir-YEr" secondAttribute="centerY" id="eGv-DG-Hwr"/>
+                <constraint firstAttribute="bottom" secondItem="dee-iH-Cna" secondAttribute="bottom" constant="12" id="eLm-UI-j2S"/>
+                <constraint firstItem="fjV-Ir-YEr" firstAttribute="leading" secondItem="Z9K-Ow-bon" secondAttribute="trailing" constant="12" id="s90-ki-1Wd"/>
+                <constraint firstItem="Z9K-Ow-bon" firstAttribute="leading" secondItem="dee-iH-Cna" secondAttribute="trailing" constant="8" id="vT6-48-OcY"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="nameLabel" destination="emy-MO-26T" id="tXC-1c-ans"/>
+                <outlet property="primaryImageView" destination="fjV-Ir-YEr" id="ICF-qX-fLk"/>
+                <outlet property="profilePictureImageView" destination="dee-iH-Cna" id="bEI-kQ-GDg"/>
+                <outlet property="secondLabel" destination="b1o-Xn-ZXP" id="m5y-3m-WlO"/>
+                <outlet property="secondLabelHeight" destination="WVI-1q-mIv" id="C6C-ei-tkc"/>
+                <outlet property="verifiedImageView" destination="Giz-9u-75a" id="yl9-S1-kfp"/>
+                <outlet property="verifiedImageViewWidth" destination="hIJ-YB-MU0" id="Cmi-Uh-e5d"/>
+            </connections>
+            <point key="canvasLocation" x="345" y="360"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Verified 16px" width="16" height="16"/>
+    </resources>
+</document>

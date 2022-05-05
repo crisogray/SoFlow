@@ -7,37 +7,287 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		747D8D232B5DE5FE3639A64D /* Pods_SoFlow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8619127C5ABD1004A2459142 /* Pods_SoFlow.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B50685BF1BC3053400A03350 /* AudioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50685BE1BC3053400A03350 /* AudioPlayerView.swift */; };
+		B5088C2A1B7691700063331E /* TwitterQuoteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5088C291B7691700063331E /* TwitterQuoteTableViewCell.xib */; };
+		B5088C2C1B7692DB0063331E /* TwitterQuoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5088C2B1B7692DB0063331E /* TwitterQuoteTableViewCell.swift */; };
+		B50DF8991BF91C99007F8C86 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50DF8981BF91C99007F8C86 /* Security.framework */; };
+		B50DF89B1BF91CA0007F8C86 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50DF89A1BF91CA0007F8C86 /* SystemConfiguration.framework */; };
+		B514C5771BE22F5600B84A45 /* TrendingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B514C5761BE22F5600B84A45 /* TrendingTableViewController.swift */; };
+		B514C5791BE239D000B84A45 /* InstagramPopularTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B514C5781BE239D000B84A45 /* InstagramPopularTableViewCell.xib */; };
+		B514C57B1BE23A3200B84A45 /* InstagramPopularTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B514C57A1BE23A3200B84A45 /* InstagramPopularTableViewCell.swift */; };
+		B528900F1BDA63A900726E3F /* ComposeUserView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B528900E1BDA63A900726E3F /* ComposeUserView.xib */; };
+		B52890111BDA647E00726E3F /* ComposeUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52890101BDA647E00726E3F /* ComposeUserView.swift */; };
+		B53F607C1B31748200AFA6F5 /* FacebookImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F60761B31748200AFA6F5 /* FacebookImageTableViewCell.swift */; };
+		B53F607D1B31748200AFA6F5 /* FacebookLinkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F60771B31748200AFA6F5 /* FacebookLinkTableViewCell.swift */; };
+		B53F607E1B31748200AFA6F5 /* FacebookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F60781B31748200AFA6F5 /* FacebookTableViewCell.swift */; };
+		B53F60891B3174A800AFA6F5 /* FacebookImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53F60831B3174A800AFA6F5 /* FacebookImageTableViewCell.xib */; };
+		B53F608A1B3174A800AFA6F5 /* FacebookLinkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53F60841B3174A800AFA6F5 /* FacebookLinkTableViewCell.xib */; };
+		B53F608B1B3174A800AFA6F5 /* FacebookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53F60851B3174A800AFA6F5 /* FacebookTableViewCell.xib */; };
+		B53F608C1B3174A800AFA6F5 /* FacebookVideoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53F60861B3174A800AFA6F5 /* FacebookVideoTableViewCell.xib */; };
+		B53F60931B31757A00AFA6F5 /* InstagramTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F60901B31757A00AFA6F5 /* InstagramTableViewCell.swift */; };
+		B53F609A1B3175B400AFA6F5 /* InstagramImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53F60971B3175B400AFA6F5 /* InstagramImageTableViewCell.xib */; };
+		B53F609B1B3175B400AFA6F5 /* InstagramVideoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53F60981B3175B400AFA6F5 /* InstagramVideoTableViewCell.xib */; };
+		B53F60A01B317A4100AFA6F5 /* AccountsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F609E1B317A4100AFA6F5 /* AccountsTableViewController.swift */; };
+		B53F60A11B317A4100AFA6F5 /* AddAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F609F1B317A4100AFA6F5 /* AddAccountView.swift */; };
+		B53F60A31B317A8900AFA6F5 /* Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F60A21B317A8900AFA6F5 /* Objects.swift */; };
+		B53F60A51B317A9500AFA6F5 /* Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F60A41B317A9500AFA6F5 /* Methods.swift */; };
+		B53F60A71B317AAA00AFA6F5 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F60A61B317AAA00AFA6F5 /* PostTableViewCell.swift */; };
+		B53F60B31B317D6000AFA6F5 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F60B21B317D6000AFA6F5 /* ProfileTableViewController.swift */; };
+		B53F60B51B317D7A00AFA6F5 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F60B41B317D7A00AFA6F5 /* WebViewController.swift */; };
+		B53F60B81B317D8900AFA6F5 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F60B61B317D8900AFA6F5 /* UserTableViewCell.swift */; };
+		B53F60BC1B317D9A00AFA6F5 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53F60BA1B317D9A00AFA6F5 /* UserTableViewCell.xib */; };
+		B53F60BF1B317E9500AFA6F5 /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F60BE1B317E9500AFA6F5 /* UsersTableViewController.swift */; };
+		B53F60C11B317EA400AFA6F5 /* PostsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F60C01B317EA400AFA6F5 /* PostsTableViewController.swift */; };
+		B53F60C91B31815F00AFA6F5 /* FourImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53F60C21B31815F00AFA6F5 /* FourImageView.xib */; };
+		B53F60CA1B31815F00AFA6F5 /* TwitterImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53F60C31B31815F00AFA6F5 /* TwitterImageTableViewCell.xib */; };
+		B53F60CB1B31815F00AFA6F5 /* OneImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53F60C41B31815F00AFA6F5 /* OneImageView.xib */; };
+		B53F60CC1B31815F00AFA6F5 /* TwitterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53F60C51B31815F00AFA6F5 /* TwitterTableViewCell.xib */; };
+		B53F60CD1B31815F00AFA6F5 /* ThreeImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53F60C61B31815F00AFA6F5 /* ThreeImageView.xib */; };
+		B53F60CE1B31815F00AFA6F5 /* TwoImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53F60C71B31815F00AFA6F5 /* TwoImageView.xib */; };
+		B53F60CF1B31815F00AFA6F5 /* TwitterVideoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53F60C81B31815F00AFA6F5 /* TwitterVideoTableViewCell.xib */; };
+		B53F60D61B31818B00AFA6F5 /* TwitterImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F60D21B31818B00AFA6F5 /* TwitterImageTableViewCell.swift */; };
+		B53F60D71B31818B00AFA6F5 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F60D31B31818B00AFA6F5 /* ImageView.swift */; };
+		B53F60D81B31818B00AFA6F5 /* TwitterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F60D41B31818B00AFA6F5 /* TwitterTableViewCell.swift */; };
+		B53F60D91B31818B00AFA6F5 /* TwitterVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F60D51B31818B00AFA6F5 /* TwitterVideoTableViewCell.swift */; };
+		B53F60DB1B31822F00AFA6F5 /* ProfileTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F60DA1B31822F00AFA6F5 /* ProfileTableHeaderView.swift */; };
+		B53F60DF1B31849800AFA6F5 /* AddAccountView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53F60DE1B31849800AFA6F5 /* AddAccountView.xib */; };
+		B53F60E11B31857500AFA6F5 /* LoadingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53F60E01B31857500AFA6F5 /* LoadingTableViewCell.xib */; };
+		B53F60E61B3197DB00AFA6F5 /* DateTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B53F60E51B3197DB00AFA6F5 /* DateTools.bundle */; };
+		B54468BA1BFE64E9001DE203 /* HomeSwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54468B91BFE64E9001DE203 /* HomeSwipeViewController.swift */; };
+		B54468BD1BFE65A8001DE203 /* TitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B54468BB1BFE65A8001DE203 /* TitleView.xib */; };
+		B54468BE1BFE65A8001DE203 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54468BC1BFE65A8001DE203 /* TitleView.swift */; };
+		B55F45F51BC81D4E00DB6162 /* SoundCloudCommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B55F45F41BC81D4E00DB6162 /* SoundCloudCommentTableViewCell.xib */; };
+		B55F45F71BC81D7200DB6162 /* SoundCloudCommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55F45F61BC81D7200DB6162 /* SoundCloudCommentTableViewCell.swift */; };
+		B55F45FD1BCEAF8B00DB6162 /* ChoosePhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55F45FC1BCEAF8B00DB6162 /* ChoosePhotoCollectionViewController.swift */; };
+		B55F45FF1BCEE91300DB6162 /* TallImageVideoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B55F45FE1BCEE91300DB6162 /* TallImageVideoTableViewCell.xib */; };
+		B561A1EE1BD195C600C19B23 /* UserCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B561A1ED1BD195C600C19B23 /* UserCollectionViewCell.xib */; };
+		B561A1F01BD19AAA00C19B23 /* ChooseUserCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B561A1EF1BD19AAA00C19B23 /* ChooseUserCollectionViewController.swift */; };
+		B561A1F41BD298BF00C19B23 /* GroupedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B561A1F31BD298BF00C19B23 /* GroupedTableViewController.swift */; };
+		B561A1F61BD2BEC900C19B23 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B561A1F51BD2BEC900C19B23 /* ListTableViewController.swift */; };
+		B573EE5D1B599AD50085035F /* PostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B573EE5C1B599AD50085035F /* PostTableViewController.swift */; };
+		B574479D1BD03823007273B2 /* TallMapTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B574479C1BD03823007273B2 /* TallMapTableViewCell.xib */; };
+		B57C96F41BBF01B100D2068E /* SoundCloudTrackTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B57C96F21BBF01B100D2068E /* SoundCloudTrackTableViewCell.xib */; };
+		B57C96F91BBF17DC00D2068E /* SoundCloudTrackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57C96F71BBF17DC00D2068E /* SoundCloudTrackTableViewCell.swift */; };
+		B57C96FC1BC184FA00D2068E /* AudioTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B57C96FB1BC184FA00D2068E /* AudioTableViewCell.xib */; };
+		B57C96FE1BC185B200D2068E /* AudioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57C96FD1BC185B200D2068E /* AudioTableViewCell.swift */; };
+		B57C97001BC2DCA000D2068E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57C96FF1BC2DCA000D2068E /* MediaPlayer.framework */; };
+		B57C97021BC2DCA500D2068E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57C97011BC2DCA500D2068E /* AVFoundation.framework */; };
+		B57C97051BC2FDAD00D2068E /* AudioPlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B57C97041BC2FDAD00D2068E /* AudioPlayerView.xib */; };
+		B57E64A41BBC37B700809F3B /* ComposeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57E64A31BBC37B700809F3B /* ComposeTableViewController.swift */; };
+		B57E64A81BBC3C2700809F3B /* ComposeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B57E64A71BBC3C2700809F3B /* ComposeTableViewCell.xib */; };
+		B57E64B01BBC73B200809F3B /* ComposeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57E64AF1BBC73B200809F3B /* ComposeTableViewCell.swift */; };
+		B58670691B447E62005A906C /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58670681B447E62005A906C /* HomeTableViewController.swift */; };
+		B586706C1B46DEB7005A906C /* FiveImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B586706B1B46DEB7005A906C /* FiveImageView.xib */; };
+		B586706E1B46E054005A906C /* SixImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B586706D1B46E054005A906C /* SixImageView.xib */; };
+		B58670701B46E18B005A906C /* SevenImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B586706F1B46E18B005A906C /* SevenImageView.xib */; };
+		B58670721B46E5D2005A906C /* EightImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58670711B46E5D2005A906C /* EightImageView.xib */; };
+		B58670741B46E9E6005A906C /* NineImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58670731B46E9E6005A906C /* NineImageView.xib */; };
+		B58670761B46EC16005A906C /* TenImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58670751B46EC16005A906C /* TenImageView.xib */; };
+		B586707B1B46EF29005A906C /* TumblrTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B586707A1B46EF29005A906C /* TumblrTableViewCell.swift */; };
+		B586707D1B46EF57005A906C /* TumblrTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B586707C1B46EF57005A906C /* TumblrTextTableViewCell.swift */; };
+		B586707F1B46F018005A906C /* TumblrTextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B586707E1B46F018005A906C /* TumblrTextTableViewCell.xib */; };
+		B58670811B46FF1F005A906C /* TumblrImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58670801B46FF1F005A906C /* TumblrImageTableViewCell.xib */; };
+		B58670831B470105005A906C /* TumblrImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58670821B470105005A906C /* TumblrImageTableViewCell.swift */; };
+		B58670871B471376005A906C /* TumblrLinkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58670861B471376005A906C /* TumblrLinkTableViewCell.swift */; };
+		B58670891B47156C005A906C /* TumblrLinkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58670881B47156C005A906C /* TumblrLinkTableViewCell.xib */; };
+		B586708F1B4719D9005A906C /* TumblrQuoteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B586708E1B4719D9005A906C /* TumblrQuoteTableViewCell.xib */; };
+		B58670911B471A26005A906C /* TumblrQuoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58670901B471A26005A906C /* TumblrQuoteTableViewCell.swift */; };
+		B59031FC1B8782CD00EF999F /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59031FB1B8782CD00EF999F /* VideoViewController.swift */; };
+		B5933C8B1BB073EF00B9D9C4 /* LoadingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5933C8A1BB073EF00B9D9C4 /* LoadingCollectionViewCell.xib */; };
+		B59437461B8F8CE400D04B34 /* TwitterQuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59437451B8F8CE400D04B34 /* TwitterQuoteView.swift */; };
+		B59437481B90FA5D00D04B34 /* TextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B59437471B90FA5D00D04B34 /* TextTableViewCell.xib */; };
+		B594374C1B90FFC100D04B34 /* ImageVideoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B594374B1B90FFC100D04B34 /* ImageVideoTableViewCell.xib */; };
+		B594374E1B9100E800D04B34 /* ImageVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B594374D1B9100E800D04B34 /* ImageVideoTableViewCell.swift */; };
+		B59437511B93255D00D04B34 /* RetweetedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B59437501B93255D00D04B34 /* RetweetedTableViewCell.xib */; };
+		B59437551B932A9D00D04B34 /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59437541B932A9D00D04B34 /* TextTableViewCell.swift */; };
+		B59437571B93369900D04B34 /* RetweetedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59437561B93369900D04B34 /* RetweetedTableViewCell.swift */; };
+		B594375B1B93974500D04B34 /* PostUserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B594375A1B93974500D04B34 /* PostUserTableViewCell.xib */; };
+		B594375D1B94451300D04B34 /* DateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B594375C1B94451300D04B34 /* DateTableViewCell.xib */; };
+		B594375F1B9446A000D04B34 /* DateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B594375E1B9446A000D04B34 /* DateTableViewCell.swift */; };
+		B59437611B94B2B500D04B34 /* CountsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B59437601B94B2B500D04B34 /* CountsTableViewCell.xib */; };
+		B59437631B94B3CF00D04B34 /* CountsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59437621B94B3CF00D04B34 /* CountsTableViewCell.swift */; };
+		B59437651B94B9D500D04B34 /* TallDateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B59437641B94B9D500D04B34 /* TallDateTableViewCell.xib */; };
+		B59437671B94DEAB00D04B34 /* TwitterActionsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B59437661B94DEAB00D04B34 /* TwitterActionsTableViewCell.xib */; };
+		B59437691B94E8BA00D04B34 /* FacebookActionsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B59437681B94E8BA00D04B34 /* FacebookActionsTableViewCell.xib */; };
+		B594376B1B94E9DC00D04B34 /* InstagramActionsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B594376A1B94E9DC00D04B34 /* InstagramActionsTableViewCell.xib */; };
+		B594376D1B94EA2400D04B34 /* TumblrActionsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B594376C1B94EA2400D04B34 /* TumblrActionsTableViewCell.xib */; };
+		B594376F1B94F14400D04B34 /* ActionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B594376E1B94F14400D04B34 /* ActionsTableViewCell.swift */; };
+		B59437711B95B33200D04B34 /* TallTextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B59437701B95B33200D04B34 /* TallTextTableViewCell.xib */; };
 		B5B2EA8B1B3163BB00AC5C25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2EA8A1B3163BB00AC5C25 /* AppDelegate.swift */; };
-		B5B2EA8D1B3163BB00AC5C25 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2EA8C1B3163BB00AC5C25 /* FirstViewController.swift */; };
-		B5B2EA8F1B3163BB00AC5C25 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2EA8E1B3163BB00AC5C25 /* SecondViewController.swift */; };
-		B5B2EA921B3163BB00AC5C25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EA901B3163BB00AC5C25 /* Main.storyboard */; };
 		B5B2EA941B3163BB00AC5C25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EA931B3163BB00AC5C25 /* Images.xcassets */; };
 		B5B2EA971B3163BB00AC5C25 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EA951B3163BB00AC5C25 /* LaunchScreen.xib */; };
-		B5B2EAA31B3163BC00AC5C25 /* SoFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2EAA21B3163BC00AC5C25 /* SoFlowTests.swift */; };
+		B5CA26F41BDA1A400004B8FD /* InstagramCountsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5CA26F31BDA1A400004B8FD /* InstagramCountsTableViewCell.xib */; };
+		B5CA26F61BDA1AE00004B8FD /* InstagramCountsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CA26F51BDA1AE00004B8FD /* InstagramCountsTableViewCell.swift */; };
+		B5CA26F81BDA2B660004B8FD /* UserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CA26F71BDA2B660004B8FD /* UserCollectionViewCell.swift */; };
+		B5D980F31C04D95D00D04761 /* FacebookEmbeddedPostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5D980F21C04D95C00D04761 /* FacebookEmbeddedPostTableViewCell.xib */; };
+		B5D980F51C04E20F00D04761 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D980F41C04E20F00D04761 /* QuoteView.swift */; };
+		B5D980F71C04E49800D04761 /* FacebookEmbeddedPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D980F61C04E49800D04761 /* FacebookEmbeddedPostTableViewCell.swift */; };
+		B5D980F91C08C67600D04761 /* AddAccountTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5D980F81C08C67600D04761 /* AddAccountTableViewCell.xib */; };
+		B5D980FB1C08CA8E00D04761 /* AddAccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D980FA1C08CA8E00D04761 /* AddAccountTableViewCell.swift */; };
+		B5D980FD1C08DE9500D04761 /* AccountTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5D980FC1C08DE9500D04761 /* AccountTableViewCell.xib */; };
+		B5D980FF1C08DF4D00D04761 /* AccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D980FE1C08DF4D00D04761 /* AccountTableViewCell.swift */; };
+		B5D981051C0A6AD700D04761 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5D981041C0A6AD700D04761 /* ProfileView.xib */; };
+		B5D981071C0BAEF300D04761 /* HashtagsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D981061C0BAEF300D04761 /* HashtagsTableViewController.swift */; };
+		B5D981091C12365000D04761 /* NotificationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D981081C12365000D04761 /* NotificationsTableViewController.swift */; };
+		B5D981B21BA763A300D3931B /* MapTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5D981B11BA763A300D3931B /* MapTableViewCell.xib */; };
+		B5D981B41BA7642700D3931B /* MapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D981B31BA7642700D3931B /* MapTableViewCell.swift */; };
+		B5D981B61BA8B78E00D3931B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D981B51BA8B78E00D3931B /* MapViewController.swift */; };
+		B5D981B81BA9F73F00D3931B /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D981B71BA9F73F00D3931B /* PhotosCollectionViewController.swift */; };
+		B5D981BA1BA9FDDC00D3931B /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5D981B91BA9FDDC00D3931B /* PhotoCollectionViewCell.xib */; };
+		B5D981BC1BA9FE0700D3931B /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D981BB1BA9FE0700D3931B /* PhotoCollectionViewCell.swift */; };
+		B5DA1CE21B9CC7D3007C643A /* FacebookCommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DA1CE11B9CC7D3007C643A /* FacebookCommentTableViewCell.xib */; };
+		B5DA1CE41B9CC8B1007C643A /* FacebookImageCommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DA1CE31B9CC8B1007C643A /* FacebookImageCommentTableViewCell.xib */; };
+		B5DA1CE61B9CC904007C643A /* InstagramCommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DA1CE51B9CC904007C643A /* InstagramCommentTableViewCell.xib */; };
+		B5DA1CE81B9DEF78007C643A /* InstagramCommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA1CE71B9DEF78007C643A /* InstagramCommentTableViewCell.swift */; };
+		B5DA1CEA1B9E1C17007C643A /* FacebookCommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA1CE91B9E1C17007C643A /* FacebookCommentTableViewCell.swift */; };
+		B5DA1CEE1B9E22A5007C643A /* FacebookVideoCommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DA1CED1B9E22A5007C643A /* FacebookVideoCommentTableViewCell.xib */; };
+		B5E512061B808CD9002BFB9B /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E512051B808CD9002BFB9B /* SearchTableViewController.swift */; };
+		B5E5120A1B833E94002BFB9B /* LoadingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E512091B833E94002BFB9B /* LoadingTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B5B2EA9D1B3163BC00AC5C25 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B5B2EA7D1B3163BB00AC5C25 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B5B2EA841B3163BB00AC5C25;
-			remoteInfo = SoFlow;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		8619127C5ABD1004A2459142 /* Pods_SoFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88CF457ACCDF52C0D5AF11EA /* Pods-SoFlow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoFlow.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoFlow/Pods-SoFlow.release.xcconfig"; sourceTree = "<group>"; };
+		B50685BE1BC3053400A03350 /* AudioPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayerView.swift; sourceTree = "<group>"; };
+		B5088C291B7691700063331E /* TwitterQuoteTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwitterQuoteTableViewCell.xib; sourceTree = "<group>"; };
+		B5088C2B1B7692DB0063331E /* TwitterQuoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterQuoteTableViewCell.swift; sourceTree = "<group>"; };
+		B50DF8981BF91C99007F8C86 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B50DF89A1BF91CA0007F8C86 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B514C5761BE22F5600B84A45 /* TrendingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingTableViewController.swift; sourceTree = "<group>"; };
+		B514C5781BE239D000B84A45 /* InstagramPopularTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstagramPopularTableViewCell.xib; sourceTree = "<group>"; };
+		B514C57A1BE23A3200B84A45 /* InstagramPopularTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramPopularTableViewCell.swift; sourceTree = "<group>"; };
+		B528900E1BDA63A900726E3F /* ComposeUserView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComposeUserView.xib; sourceTree = "<group>"; };
+		B52890101BDA647E00726E3F /* ComposeUserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeUserView.swift; sourceTree = "<group>"; };
+		B53F60761B31748200AFA6F5 /* FacebookImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookImageTableViewCell.swift; sourceTree = "<group>"; };
+		B53F60771B31748200AFA6F5 /* FacebookLinkTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookLinkTableViewCell.swift; sourceTree = "<group>"; };
+		B53F60781B31748200AFA6F5 /* FacebookTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookTableViewCell.swift; sourceTree = "<group>"; };
+		B53F60831B3174A800AFA6F5 /* FacebookImageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FacebookImageTableViewCell.xib; sourceTree = "<group>"; };
+		B53F60841B3174A800AFA6F5 /* FacebookLinkTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FacebookLinkTableViewCell.xib; sourceTree = "<group>"; };
+		B53F60851B3174A800AFA6F5 /* FacebookTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FacebookTableViewCell.xib; sourceTree = "<group>"; };
+		B53F60861B3174A800AFA6F5 /* FacebookVideoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FacebookVideoTableViewCell.xib; sourceTree = "<group>"; };
+		B53F60901B31757A00AFA6F5 /* InstagramTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramTableViewCell.swift; sourceTree = "<group>"; };
+		B53F60971B3175B400AFA6F5 /* InstagramImageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstagramImageTableViewCell.xib; sourceTree = "<group>"; };
+		B53F60981B3175B400AFA6F5 /* InstagramVideoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstagramVideoTableViewCell.xib; sourceTree = "<group>"; };
+		B53F609E1B317A4100AFA6F5 /* AccountsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountsTableViewController.swift; sourceTree = "<group>"; };
+		B53F609F1B317A4100AFA6F5 /* AddAccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAccountView.swift; sourceTree = "<group>"; };
+		B53F60A21B317A8900AFA6F5 /* Objects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Objects.swift; sourceTree = "<group>"; };
+		B53F60A41B317A9500AFA6F5 /* Methods.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = Methods.swift; sourceTree = "<group>"; tabWidth = 4; wrapsLines = 0; };
+		B53F60A61B317AAA00AFA6F5 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		B53F60B21B317D6000AFA6F5 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		B53F60B41B317D7A00AFA6F5 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		B53F60B61B317D8900AFA6F5 /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		B53F60BA1B317D9A00AFA6F5 /* UserTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
+		B53F60BE1B317E9500AFA6F5 /* UsersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
+		B53F60C01B317EA400AFA6F5 /* PostsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsTableViewController.swift; sourceTree = "<group>"; };
+		B53F60C21B31815F00AFA6F5 /* FourImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourImageView.xib; sourceTree = "<group>"; };
+		B53F60C31B31815F00AFA6F5 /* TwitterImageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwitterImageTableViewCell.xib; sourceTree = "<group>"; };
+		B53F60C41B31815F00AFA6F5 /* OneImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneImageView.xib; sourceTree = "<group>"; };
+		B53F60C51B31815F00AFA6F5 /* TwitterTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwitterTableViewCell.xib; sourceTree = "<group>"; };
+		B53F60C61B31815F00AFA6F5 /* ThreeImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreeImageView.xib; sourceTree = "<group>"; };
+		B53F60C71B31815F00AFA6F5 /* TwoImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoImageView.xib; sourceTree = "<group>"; };
+		B53F60C81B31815F00AFA6F5 /* TwitterVideoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwitterVideoTableViewCell.xib; sourceTree = "<group>"; };
+		B53F60D21B31818B00AFA6F5 /* TwitterImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterImageTableViewCell.swift; sourceTree = "<group>"; };
+		B53F60D31B31818B00AFA6F5 /* ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		B53F60D41B31818B00AFA6F5 /* TwitterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterTableViewCell.swift; sourceTree = "<group>"; };
+		B53F60D51B31818B00AFA6F5 /* TwitterVideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterVideoTableViewCell.swift; sourceTree = "<group>"; };
+		B53F60DA1B31822F00AFA6F5 /* ProfileTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableHeaderView.swift; sourceTree = "<group>"; };
+		B53F60DE1B31849800AFA6F5 /* AddAccountView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddAccountView.xib; sourceTree = "<group>"; };
+		B53F60E01B31857500AFA6F5 /* LoadingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingTableViewCell.xib; sourceTree = "<group>"; };
+		B53F60E51B3197DB00AFA6F5 /* DateTools.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DateTools.bundle; sourceTree = "<group>"; };
+		B54468B91BFE64E9001DE203 /* HomeSwipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSwipeViewController.swift; sourceTree = "<group>"; };
+		B54468BB1BFE65A8001DE203 /* TitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TitleView.xib; sourceTree = "<group>"; };
+		B54468BC1BFE65A8001DE203 /* TitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		B55F45F41BC81D4E00DB6162 /* SoundCloudCommentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoundCloudCommentTableViewCell.xib; sourceTree = "<group>"; };
+		B55F45F61BC81D7200DB6162 /* SoundCloudCommentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundCloudCommentTableViewCell.swift; sourceTree = "<group>"; };
+		B55F45FC1BCEAF8B00DB6162 /* ChoosePhotoCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoosePhotoCollectionViewController.swift; sourceTree = "<group>"; };
+		B55F45FE1BCEE91300DB6162 /* TallImageVideoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TallImageVideoTableViewCell.xib; sourceTree = "<group>"; };
+		B561A1ED1BD195C600C19B23 /* UserCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCollectionViewCell.xib; sourceTree = "<group>"; };
+		B561A1EF1BD19AAA00C19B23 /* ChooseUserCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseUserCollectionViewController.swift; sourceTree = "<group>"; };
+		B561A1F31BD298BF00C19B23 /* GroupedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupedTableViewController.swift; sourceTree = "<group>"; };
+		B561A1F51BD2BEC900C19B23 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		B573EE5C1B599AD50085035F /* PostTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewController.swift; sourceTree = "<group>"; };
+		B574479C1BD03823007273B2 /* TallMapTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TallMapTableViewCell.xib; sourceTree = "<group>"; };
+		B57C96F21BBF01B100D2068E /* SoundCloudTrackTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoundCloudTrackTableViewCell.xib; sourceTree = "<group>"; };
+		B57C96F71BBF17DC00D2068E /* SoundCloudTrackTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundCloudTrackTableViewCell.swift; sourceTree = "<group>"; };
+		B57C96FB1BC184FA00D2068E /* AudioTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AudioTableViewCell.xib; sourceTree = "<group>"; };
+		B57C96FD1BC185B200D2068E /* AudioTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioTableViewCell.swift; sourceTree = "<group>"; };
+		B57C96FF1BC2DCA000D2068E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		B57C97011BC2DCA500D2068E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B57C97041BC2FDAD00D2068E /* AudioPlayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AudioPlayerView.xib; sourceTree = "<group>"; };
+		B57E64A31BBC37B700809F3B /* ComposeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeTableViewController.swift; sourceTree = "<group>"; };
+		B57E64A71BBC3C2700809F3B /* ComposeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComposeTableViewCell.xib; sourceTree = "<group>"; };
+		B57E64AF1BBC73B200809F3B /* ComposeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeTableViewCell.swift; sourceTree = "<group>"; };
+		B58670681B447E62005A906C /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		B586706B1B46DEB7005A906C /* FiveImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FiveImageView.xib; sourceTree = "<group>"; };
+		B586706D1B46E054005A906C /* SixImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SixImageView.xib; sourceTree = "<group>"; };
+		B586706F1B46E18B005A906C /* SevenImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SevenImageView.xib; sourceTree = "<group>"; };
+		B58670711B46E5D2005A906C /* EightImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EightImageView.xib; sourceTree = "<group>"; };
+		B58670731B46E9E6005A906C /* NineImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NineImageView.xib; sourceTree = "<group>"; };
+		B58670751B46EC16005A906C /* TenImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TenImageView.xib; sourceTree = "<group>"; };
+		B586707A1B46EF29005A906C /* TumblrTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TumblrTableViewCell.swift; sourceTree = "<group>"; };
+		B586707C1B46EF57005A906C /* TumblrTextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TumblrTextTableViewCell.swift; sourceTree = "<group>"; };
+		B586707E1B46F018005A906C /* TumblrTextTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TumblrTextTableViewCell.xib; sourceTree = "<group>"; };
+		B58670801B46FF1F005A906C /* TumblrImageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TumblrImageTableViewCell.xib; sourceTree = "<group>"; };
+		B58670821B470105005A906C /* TumblrImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TumblrImageTableViewCell.swift; sourceTree = "<group>"; };
+		B58670861B471376005A906C /* TumblrLinkTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TumblrLinkTableViewCell.swift; sourceTree = "<group>"; };
+		B58670881B47156C005A906C /* TumblrLinkTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TumblrLinkTableViewCell.xib; sourceTree = "<group>"; };
+		B586708E1B4719D9005A906C /* TumblrQuoteTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TumblrQuoteTableViewCell.xib; sourceTree = "<group>"; };
+		B58670901B471A26005A906C /* TumblrQuoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TumblrQuoteTableViewCell.swift; sourceTree = "<group>"; };
+		B59031FB1B8782CD00EF999F /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		B5933C8A1BB073EF00B9D9C4 /* LoadingCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingCollectionViewCell.xib; sourceTree = "<group>"; };
+		B59437451B8F8CE400D04B34 /* TwitterQuoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterQuoteView.swift; sourceTree = "<group>"; };
+		B59437471B90FA5D00D04B34 /* TextTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextTableViewCell.xib; sourceTree = "<group>"; };
+		B594374B1B90FFC100D04B34 /* ImageVideoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageVideoTableViewCell.xib; sourceTree = "<group>"; };
+		B594374D1B9100E800D04B34 /* ImageVideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageVideoTableViewCell.swift; sourceTree = "<group>"; };
+		B59437501B93255D00D04B34 /* RetweetedTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RetweetedTableViewCell.xib; sourceTree = "<group>"; };
+		B59437541B932A9D00D04B34 /* TextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
+		B59437561B93369900D04B34 /* RetweetedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetweetedTableViewCell.swift; sourceTree = "<group>"; };
+		B594375A1B93974500D04B34 /* PostUserTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostUserTableViewCell.xib; sourceTree = "<group>"; };
+		B594375C1B94451300D04B34 /* DateTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateTableViewCell.xib; sourceTree = "<group>"; };
+		B594375E1B9446A000D04B34 /* DateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTableViewCell.swift; sourceTree = "<group>"; };
+		B59437601B94B2B500D04B34 /* CountsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CountsTableViewCell.xib; sourceTree = "<group>"; };
+		B59437621B94B3CF00D04B34 /* CountsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountsTableViewCell.swift; sourceTree = "<group>"; };
+		B59437641B94B9D500D04B34 /* TallDateTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TallDateTableViewCell.xib; sourceTree = "<group>"; };
+		B59437661B94DEAB00D04B34 /* TwitterActionsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwitterActionsTableViewCell.xib; sourceTree = "<group>"; };
+		B59437681B94E8BA00D04B34 /* FacebookActionsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FacebookActionsTableViewCell.xib; sourceTree = "<group>"; };
+		B594376A1B94E9DC00D04B34 /* InstagramActionsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstagramActionsTableViewCell.xib; sourceTree = "<group>"; };
+		B594376C1B94EA2400D04B34 /* TumblrActionsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TumblrActionsTableViewCell.xib; sourceTree = "<group>"; };
+		B594376E1B94F14400D04B34 /* ActionsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionsTableViewCell.swift; sourceTree = "<group>"; };
+		B59437701B95B33200D04B34 /* TallTextTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TallTextTableViewCell.xib; sourceTree = "<group>"; };
 		B5B2EA851B3163BB00AC5C25 /* SoFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B2EA891B3163BB00AC5C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5B2EA8A1B3163BB00AC5C25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B5B2EA8C1B3163BB00AC5C25 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		B5B2EA8E1B3163BB00AC5C25 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		B5B2EA911B3163BB00AC5C25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5B2EA931B3163BB00AC5C25 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B5B2EA961B3163BB00AC5C25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B5B2EA9C1B3163BC00AC5C25 /* SoFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5B2EAA11B3163BC00AC5C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5B2EAA21B3163BC00AC5C25 /* SoFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoFlowTests.swift; sourceTree = "<group>"; };
+		B5CA26F31BDA1A400004B8FD /* InstagramCountsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstagramCountsTableViewCell.xib; sourceTree = "<group>"; };
+		B5CA26F51BDA1AE00004B8FD /* InstagramCountsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramCountsTableViewCell.swift; sourceTree = "<group>"; };
+		B5CA26F71BDA2B660004B8FD /* UserCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCollectionViewCell.swift; sourceTree = "<group>"; };
+		B5D980F21C04D95C00D04761 /* FacebookEmbeddedPostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FacebookEmbeddedPostTableViewCell.xib; sourceTree = "<group>"; };
+		B5D980F41C04E20F00D04761 /* QuoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		B5D980F61C04E49800D04761 /* FacebookEmbeddedPostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookEmbeddedPostTableViewCell.swift; sourceTree = "<group>"; };
+		B5D980F81C08C67600D04761 /* AddAccountTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddAccountTableViewCell.xib; sourceTree = "<group>"; };
+		B5D980FA1C08CA8E00D04761 /* AddAccountTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAccountTableViewCell.swift; sourceTree = "<group>"; };
+		B5D980FC1C08DE9500D04761 /* AccountTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountTableViewCell.xib; sourceTree = "<group>"; };
+		B5D980FE1C08DF4D00D04761 /* AccountTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountTableViewCell.swift; sourceTree = "<group>"; };
+		B5D981041C0A6AD700D04761 /* ProfileView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		B5D981061C0BAEF300D04761 /* HashtagsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HashtagsTableViewController.swift; sourceTree = "<group>"; };
+		B5D981081C12365000D04761 /* NotificationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsTableViewController.swift; sourceTree = "<group>"; };
+		B5D981B11BA763A300D3931B /* MapTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapTableViewCell.xib; sourceTree = "<group>"; };
+		B5D981B31BA7642700D3931B /* MapTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapTableViewCell.swift; sourceTree = "<group>"; };
+		B5D981B51BA8B78E00D3931B /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		B5D981B71BA9F73F00D3931B /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		B5D981B91BA9FDDC00D3931B /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		B5D981BB1BA9FE0700D3931B /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		B5DA1CE11B9CC7D3007C643A /* FacebookCommentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FacebookCommentTableViewCell.xib; sourceTree = "<group>"; };
+		B5DA1CE31B9CC8B1007C643A /* FacebookImageCommentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FacebookImageCommentTableViewCell.xib; sourceTree = "<group>"; };
+		B5DA1CE51B9CC904007C643A /* InstagramCommentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstagramCommentTableViewCell.xib; sourceTree = "<group>"; };
+		B5DA1CE71B9DEF78007C643A /* InstagramCommentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramCommentTableViewCell.swift; sourceTree = "<group>"; };
+		B5DA1CE91B9E1C17007C643A /* FacebookCommentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookCommentTableViewCell.swift; sourceTree = "<group>"; };
+		B5DA1CED1B9E22A5007C643A /* FacebookVideoCommentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FacebookVideoCommentTableViewCell.xib; sourceTree = "<group>"; };
+		B5E512051B808CD9002BFB9B /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		B5E512091B833E94002BFB9B /* LoadingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingTableViewCell.swift; sourceTree = "<group>"; };
+		BA210AD2E9D3D408988B3AFB /* Pods-SoFlow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoFlow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoFlow/Pods-SoFlow.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,25 +295,328 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B5B2EA991B3163BC00AC5C25 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				B50DF89B1BF91CA0007F8C86 /* SystemConfiguration.framework in Frameworks */,
+				B50DF8991BF91C99007F8C86 /* Security.framework in Frameworks */,
+				B57C97021BC2DCA500D2068E /* AVFoundation.framework in Frameworks */,
+				B57C97001BC2DCA000D2068E /* MediaPlayer.framework in Frameworks */,
+				747D8D232B5DE5FE3639A64D /* Pods_SoFlow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F72FB20CEACCFEC6F749076 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA210AD2E9D3D408988B3AFB /* Pods-SoFlow.debug.xcconfig */,
+				88CF457ACCDF52C0D5AF11EA /* Pods-SoFlow.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C1878CA4623D1D6E9410590 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8619127C5ABD1004A2459142 /* Pods_SoFlow.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B53F60711B31744400AFA6F5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B53F60721B31744D00AFA6F5 /* Facebook */,
+				B53F609C1B3175C500AFA6F5 /* Twitter */,
+				B53F608D1B31755E00AFA6F5 /* Instagram */,
+				B58670771B46EEE3005A906C /* Tumblr */,
+				B57C96EE1BBF017600D2068E /* SoundCloud */,
+				B53F609D1B31777200AFA6F5 /* General */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		B53F60721B31744D00AFA6F5 /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				B53F60801B31748800AFA6F5 /* Nibs */,
+				B53F60731B31746300AFA6F5 /* Classes */,
+			);
+			name = Facebook;
+			sourceTree = "<group>";
+		};
+		B53F60731B31746300AFA6F5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B53F60781B31748200AFA6F5 /* FacebookTableViewCell.swift */,
+				B53F60761B31748200AFA6F5 /* FacebookImageTableViewCell.swift */,
+				B53F60771B31748200AFA6F5 /* FacebookLinkTableViewCell.swift */,
+				B5D980F61C04E49800D04761 /* FacebookEmbeddedPostTableViewCell.swift */,
+				B5DA1CE91B9E1C17007C643A /* FacebookCommentTableViewCell.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		B53F60801B31748800AFA6F5 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				B53F60851B3174A800AFA6F5 /* FacebookTableViewCell.xib */,
+				B53F60831B3174A800AFA6F5 /* FacebookImageTableViewCell.xib */,
+				B53F60861B3174A800AFA6F5 /* FacebookVideoTableViewCell.xib */,
+				B53F60841B3174A800AFA6F5 /* FacebookLinkTableViewCell.xib */,
+				B5D980F21C04D95C00D04761 /* FacebookEmbeddedPostTableViewCell.xib */,
+				B59437681B94E8BA00D04B34 /* FacebookActionsTableViewCell.xib */,
+				B5DA1CE11B9CC7D3007C643A /* FacebookCommentTableViewCell.xib */,
+				B5DA1CE31B9CC8B1007C643A /* FacebookImageCommentTableViewCell.xib */,
+				B5DA1CED1B9E22A5007C643A /* FacebookVideoCommentTableViewCell.xib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+		B53F608D1B31755E00AFA6F5 /* Instagram */ = {
+			isa = PBXGroup;
+			children = (
+				B53F60951B31759400AFA6F5 /* Nibs */,
+				B53F608E1B31756D00AFA6F5 /* Classes */,
+			);
+			name = Instagram;
+			sourceTree = "<group>";
+		};
+		B53F608E1B31756D00AFA6F5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B53F60901B31757A00AFA6F5 /* InstagramTableViewCell.swift */,
+				B5DA1CE71B9DEF78007C643A /* InstagramCommentTableViewCell.swift */,
+				B5CA26F51BDA1AE00004B8FD /* InstagramCountsTableViewCell.swift */,
+				B514C57A1BE23A3200B84A45 /* InstagramPopularTableViewCell.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		B53F60951B31759400AFA6F5 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				B53F60971B3175B400AFA6F5 /* InstagramImageTableViewCell.xib */,
+				B53F60981B3175B400AFA6F5 /* InstagramVideoTableViewCell.xib */,
+				B594376A1B94E9DC00D04B34 /* InstagramActionsTableViewCell.xib */,
+				B5DA1CE51B9CC904007C643A /* InstagramCommentTableViewCell.xib */,
+				B5CA26F31BDA1A400004B8FD /* InstagramCountsTableViewCell.xib */,
+				B514C5781BE239D000B84A45 /* InstagramPopularTableViewCell.xib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+		B53F609C1B3175C500AFA6F5 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				B53F60D01B31816400AFA6F5 /* Nibs */,
+				B53F60D11B31816B00AFA6F5 /* Classes */,
+			);
+			name = Twitter;
+			sourceTree = "<group>";
+		};
+		B53F609D1B31777200AFA6F5 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				B53F60A91B317B8200AFA6F5 /* Nibs */,
+				B53F60A81B317AAD00AFA6F5 /* Classes */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		B53F60A81B317AAD00AFA6F5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B54468BC1BFE65A8001DE203 /* TitleView.swift */,
+				B5D980F41C04E20F00D04761 /* QuoteView.swift */,
+				B53F60D31B31818B00AFA6F5 /* ImageView.swift */,
+				B53F60DA1B31822F00AFA6F5 /* ProfileTableHeaderView.swift */,
+				B53F60B61B317D8900AFA6F5 /* UserTableViewCell.swift */,
+				B53F609F1B317A4100AFA6F5 /* AddAccountView.swift */,
+				B53F60A61B317AAA00AFA6F5 /* PostTableViewCell.swift */,
+				B5E512091B833E94002BFB9B /* LoadingTableViewCell.swift */,
+				B594374D1B9100E800D04B34 /* ImageVideoTableViewCell.swift */,
+				B59437541B932A9D00D04B34 /* TextTableViewCell.swift */,
+				B59437561B93369900D04B34 /* RetweetedTableViewCell.swift */,
+				B594375E1B9446A000D04B34 /* DateTableViewCell.swift */,
+				B59437621B94B3CF00D04B34 /* CountsTableViewCell.swift */,
+				B594376E1B94F14400D04B34 /* ActionsTableViewCell.swift */,
+				B5D981B31BA7642700D3931B /* MapTableViewCell.swift */,
+				B5D981BB1BA9FE0700D3931B /* PhotoCollectionViewCell.swift */,
+				B57C96FD1BC185B200D2068E /* AudioTableViewCell.swift */,
+				B50685BE1BC3053400A03350 /* AudioPlayerView.swift */,
+				B5CA26F71BDA2B660004B8FD /* UserCollectionViewCell.swift */,
+				B52890101BDA647E00726E3F /* ComposeUserView.swift */,
+				B57E64AF1BBC73B200809F3B /* ComposeTableViewCell.swift */,
+				B5D980FA1C08CA8E00D04761 /* AddAccountTableViewCell.swift */,
+				B5D980FE1C08DF4D00D04761 /* AccountTableViewCell.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		B53F60A91B317B8200AFA6F5 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				B54468BB1BFE65A8001DE203 /* TitleView.xib */,
+				B586706A1B46DE53005A906C /* Image Views */,
+				B57C97031BC2F19600D2068E /* PostTableViewController */,
+				B53F60BA1B317D9A00AFA6F5 /* UserTableViewCell.xib */,
+				B53F60DE1B31849800AFA6F5 /* AddAccountView.xib */,
+				B53F60E01B31857500AFA6F5 /* LoadingTableViewCell.xib */,
+				B5D981B91BA9FDDC00D3931B /* PhotoCollectionViewCell.xib */,
+				B5D981041C0A6AD700D04761 /* ProfileView.xib */,
+				B5933C8A1BB073EF00B9D9C4 /* LoadingCollectionViewCell.xib */,
+				B57E64A71BBC3C2700809F3B /* ComposeTableViewCell.xib */,
+				B57C97041BC2FDAD00D2068E /* AudioPlayerView.xib */,
+				B561A1ED1BD195C600C19B23 /* UserCollectionViewCell.xib */,
+				B528900E1BDA63A900726E3F /* ComposeUserView.xib */,
+				B5D980F81C08C67600D04761 /* AddAccountTableViewCell.xib */,
+				B5D980FC1C08DE9500D04761 /* AccountTableViewCell.xib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+		B53F60D01B31816400AFA6F5 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				B53F60C51B31815F00AFA6F5 /* TwitterTableViewCell.xib */,
+				B53F60C31B31815F00AFA6F5 /* TwitterImageTableViewCell.xib */,
+				B53F60C81B31815F00AFA6F5 /* TwitterVideoTableViewCell.xib */,
+				B5088C291B7691700063331E /* TwitterQuoteTableViewCell.xib */,
+				B59437661B94DEAB00D04B34 /* TwitterActionsTableViewCell.xib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+		B53F60D11B31816B00AFA6F5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B53F60D41B31818B00AFA6F5 /* TwitterTableViewCell.swift */,
+				B53F60D21B31818B00AFA6F5 /* TwitterImageTableViewCell.swift */,
+				B53F60D51B31818B00AFA6F5 /* TwitterVideoTableViewCell.swift */,
+				B5088C2B1B7692DB0063331E /* TwitterQuoteTableViewCell.swift */,
+				B59437451B8F8CE400D04B34 /* TwitterQuoteView.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		B53F60E41B3197C900AFA6F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B50DF89A1BF91CA0007F8C86 /* SystemConfiguration.framework */,
+				B50DF8981BF91C99007F8C86 /* Security.framework */,
+				B57C97011BC2DCA500D2068E /* AVFoundation.framework */,
+				B57C96FF1BC2DCA000D2068E /* MediaPlayer.framework */,
+				B53F60E51B3197DB00AFA6F5 /* DateTools.bundle */,
+			);
+			name = Frameworks;
+			path = SoFlow;
+			sourceTree = "<group>";
+		};
+		B57C96EE1BBF017600D2068E /* SoundCloud */ = {
+			isa = PBXGroup;
+			children = (
+				B57C96EF1BBF018100D2068E /* Nibs */,
+				B57C96F01BBF018900D2068E /* Classes */,
+			);
+			name = SoundCloud;
+			sourceTree = "<group>";
+		};
+		B57C96EF1BBF018100D2068E /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				B57C96F21BBF01B100D2068E /* SoundCloudTrackTableViewCell.xib */,
+				B55F45F41BC81D4E00DB6162 /* SoundCloudCommentTableViewCell.xib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+		B57C96F01BBF018900D2068E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B57C96F71BBF17DC00D2068E /* SoundCloudTrackTableViewCell.swift */,
+				B55F45F61BC81D7200DB6162 /* SoundCloudCommentTableViewCell.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		B57C97031BC2F19600D2068E /* PostTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B59437471B90FA5D00D04B34 /* TextTableViewCell.xib */,
+				B59437701B95B33200D04B34 /* TallTextTableViewCell.xib */,
+				B594374B1B90FFC100D04B34 /* ImageVideoTableViewCell.xib */,
+				B55F45FE1BCEE91300DB6162 /* TallImageVideoTableViewCell.xib */,
+				B59437501B93255D00D04B34 /* RetweetedTableViewCell.xib */,
+				B594375A1B93974500D04B34 /* PostUserTableViewCell.xib */,
+				B594375C1B94451300D04B34 /* DateTableViewCell.xib */,
+				B59437641B94B9D500D04B34 /* TallDateTableViewCell.xib */,
+				B59437601B94B2B500D04B34 /* CountsTableViewCell.xib */,
+				B5D981B11BA763A300D3931B /* MapTableViewCell.xib */,
+				B574479C1BD03823007273B2 /* TallMapTableViewCell.xib */,
+				B57C96FB1BC184FA00D2068E /* AudioTableViewCell.xib */,
+			);
+			name = PostTableViewController;
+			sourceTree = "<group>";
+		};
+		B586706A1B46DE53005A906C /* Image Views */ = {
+			isa = PBXGroup;
+			children = (
+				B53F60C41B31815F00AFA6F5 /* OneImageView.xib */,
+				B53F60C71B31815F00AFA6F5 /* TwoImageView.xib */,
+				B53F60C61B31815F00AFA6F5 /* ThreeImageView.xib */,
+				B53F60C21B31815F00AFA6F5 /* FourImageView.xib */,
+				B586706B1B46DEB7005A906C /* FiveImageView.xib */,
+				B586706D1B46E054005A906C /* SixImageView.xib */,
+				B586706F1B46E18B005A906C /* SevenImageView.xib */,
+				B58670711B46E5D2005A906C /* EightImageView.xib */,
+				B58670731B46E9E6005A906C /* NineImageView.xib */,
+				B58670751B46EC16005A906C /* TenImageView.xib */,
+			);
+			name = "Image Views";
+			sourceTree = "<group>";
+		};
+		B58670771B46EEE3005A906C /* Tumblr */ = {
+			isa = PBXGroup;
+			children = (
+				B58670791B46EEF7005A906C /* Nibs */,
+				B58670781B46EEEC005A906C /* Classes */,
+			);
+			name = Tumblr;
+			sourceTree = "<group>";
+		};
+		B58670781B46EEEC005A906C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B586707A1B46EF29005A906C /* TumblrTableViewCell.swift */,
+				B586707C1B46EF57005A906C /* TumblrTextTableViewCell.swift */,
+				B58670821B470105005A906C /* TumblrImageTableViewCell.swift */,
+				B58670861B471376005A906C /* TumblrLinkTableViewCell.swift */,
+				B58670901B471A26005A906C /* TumblrQuoteTableViewCell.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		B58670791B46EEF7005A906C /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				B586707E1B46F018005A906C /* TumblrTextTableViewCell.xib */,
+				B58670801B46FF1F005A906C /* TumblrImageTableViewCell.xib */,
+				B58670881B47156C005A906C /* TumblrLinkTableViewCell.xib */,
+				B586708E1B4719D9005A906C /* TumblrQuoteTableViewCell.xib */,
+				B594376C1B94EA2400D04B34 /* TumblrActionsTableViewCell.xib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
 		B5B2EA7C1B3163BB00AC5C25 = {
 			isa = PBXGroup;
 			children = (
+				B53F60E41B3197C900AFA6F5 /* Frameworks */,
 				B5B2EA871B3163BB00AC5C25 /* SoFlow */,
-				B5B2EA9F1B3163BC00AC5C25 /* SoFlowTests */,
 				B5B2EA861B3163BB00AC5C25 /* Products */,
+				3F72FB20CEACCFEC6F749076 /* Pods */,
+				5C1878CA4623D1D6E9410590 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,7 +624,6 @@
 			isa = PBXGroup;
 			children = (
 				B5B2EA851B3163BB00AC5C25 /* SoFlow.app */,
-				B5B2EA9C1B3163BC00AC5C25 /* SoFlowTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,10 +631,30 @@
 		B5B2EA871B3163BB00AC5C25 /* SoFlow */ = {
 			isa = PBXGroup;
 			children = (
+				B53F60711B31744400AFA6F5 /* Cells */,
 				B5B2EA8A1B3163BB00AC5C25 /* AppDelegate.swift */,
-				B5B2EA8C1B3163BB00AC5C25 /* FirstViewController.swift */,
-				B5B2EA8E1B3163BB00AC5C25 /* SecondViewController.swift */,
-				B5B2EA901B3163BB00AC5C25 /* Main.storyboard */,
+				B53F609E1B317A4100AFA6F5 /* AccountsTableViewController.swift */,
+				B53F60A21B317A8900AFA6F5 /* Objects.swift */,
+				B58670681B447E62005A906C /* HomeTableViewController.swift */,
+				B54468B91BFE64E9001DE203 /* HomeSwipeViewController.swift */,
+				B5D981081C12365000D04761 /* NotificationsTableViewController.swift */,
+				B53F60A41B317A9500AFA6F5 /* Methods.swift */,
+				B5E512051B808CD9002BFB9B /* SearchTableViewController.swift */,
+				B53F60B21B317D6000AFA6F5 /* ProfileTableViewController.swift */,
+				B561A1F31BD298BF00C19B23 /* GroupedTableViewController.swift */,
+				B53F60C01B317EA400AFA6F5 /* PostsTableViewController.swift */,
+				B561A1F51BD2BEC900C19B23 /* ListTableViewController.swift */,
+				B561A1EF1BD19AAA00C19B23 /* ChooseUserCollectionViewController.swift */,
+				B573EE5C1B599AD50085035F /* PostTableViewController.swift */,
+				B57E64A31BBC37B700809F3B /* ComposeTableViewController.swift */,
+				B5D981061C0BAEF300D04761 /* HashtagsTableViewController.swift */,
+				B514C5761BE22F5600B84A45 /* TrendingTableViewController.swift */,
+				B55F45FC1BCEAF8B00DB6162 /* ChoosePhotoCollectionViewController.swift */,
+				B5D981B71BA9F73F00D3931B /* PhotosCollectionViewController.swift */,
+				B53F60BE1B317E9500AFA6F5 /* UsersTableViewController.swift */,
+				B5D981B51BA8B78E00D3931B /* MapViewController.swift */,
+				B53F60B41B317D7A00AFA6F5 /* WebViewController.swift */,
+				B59031FB1B8782CD00EF999F /* VideoViewController.swift */,
 				B5B2EA931B3163BB00AC5C25 /* Images.xcassets */,
 				B5B2EA951B3163BB00AC5C25 /* LaunchScreen.xib */,
 				B5B2EA881B3163BB00AC5C25 /* Supporting Files */,
@@ -98,23 +670,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B5B2EA9F1B3163BC00AC5C25 /* SoFlowTests */ = {
-			isa = PBXGroup;
-			children = (
-				B5B2EAA21B3163BC00AC5C25 /* SoFlowTests.swift */,
-				B5B2EAA01B3163BC00AC5C25 /* Supporting Files */,
-			);
-			path = SoFlowTests;
-			sourceTree = "<group>";
-		};
-		B5B2EAA01B3163BC00AC5C25 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B5B2EAA11B3163BC00AC5C25 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,9 +677,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5B2EAA61B3163BC00AC5C25 /* Build configuration list for PBXNativeTarget "SoFlow" */;
 			buildPhases = (
+				13C78164FD5EC41B987B6EBB /* Check Pods Manifest.lock */,
 				B5B2EA811B3163BB00AC5C25 /* Sources */,
 				B5B2EA821B3163BB00AC5C25 /* Frameworks */,
 				B5B2EA831B3163BB00AC5C25 /* Resources */,
+				69780924D6824A4BA4390A63 /* Copy Pods Resources */,
+				B561F07D1BF642FC005E7DFE /* ShellScript */,
+				049A4F591D42D4DB7321C76D /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,39 +694,20 @@
 			productReference = B5B2EA851B3163BB00AC5C25 /* SoFlow.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B5B2EA9B1B3163BC00AC5C25 /* SoFlowTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B5B2EAA91B3163BC00AC5C25 /* Build configuration list for PBXNativeTarget "SoFlowTests" */;
-			buildPhases = (
-				B5B2EA981B3163BC00AC5C25 /* Sources */,
-				B5B2EA991B3163BC00AC5C25 /* Frameworks */,
-				B5B2EA9A1B3163BC00AC5C25 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B5B2EA9E1B3163BC00AC5C25 /* PBXTargetDependency */,
-			);
-			name = SoFlowTests;
-			productName = SoFlowTests;
-			productReference = B5B2EA9C1B3163BC00AC5C25 /* SoFlowTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		B5B2EA7D1B3163BB00AC5C25 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Graypfruit;
 				TargetAttributes = {
 					B5B2EA841B3163BB00AC5C25 = {
 						CreatedOnToolsVersion = 6.3.1;
-					};
-					B5B2EA9B1B3163BC00AC5C25 = {
-						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = B5B2EA841B3163BB00AC5C25;
+						DevelopmentTeam = VEC99QV99S;
 					};
 				};
 			};
@@ -185,7 +725,6 @@
 			projectRoot = "";
 			targets = (
 				B5B2EA841B3163BB00AC5C25 /* SoFlow */,
-				B5B2EA9B1B3163BC00AC5C25 /* SoFlowTests */,
 			);
 		};
 /* End PBXProject section */
@@ -195,59 +734,215 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5B2EA921B3163BB00AC5C25 /* Main.storyboard in Resources */,
+				B561A1EE1BD195C600C19B23 /* UserCollectionViewCell.xib in Resources */,
+				B5933C8B1BB073EF00B9D9C4 /* LoadingCollectionViewCell.xib in Resources */,
+				B586707F1B46F018005A906C /* TumblrTextTableViewCell.xib in Resources */,
 				B5B2EA971B3163BB00AC5C25 /* LaunchScreen.xib in Resources */,
+				B5DA1CE21B9CC7D3007C643A /* FacebookCommentTableViewCell.xib in Resources */,
+				B586706C1B46DEB7005A906C /* FiveImageView.xib in Resources */,
+				B5D981051C0A6AD700D04761 /* ProfileView.xib in Resources */,
+				B586706E1B46E054005A906C /* SixImageView.xib in Resources */,
+				B5D981BA1BA9FDDC00D3931B /* PhotoCollectionViewCell.xib in Resources */,
+				B58670721B46E5D2005A906C /* EightImageView.xib in Resources */,
+				B57E64A81BBC3C2700809F3B /* ComposeTableViewCell.xib in Resources */,
+				B5CA26F41BDA1A400004B8FD /* InstagramCountsTableViewCell.xib in Resources */,
+				B53F60BC1B317D9A00AFA6F5 /* UserTableViewCell.xib in Resources */,
+				B594376B1B94E9DC00D04B34 /* InstagramActionsTableViewCell.xib in Resources */,
+				B57C96FC1BC184FA00D2068E /* AudioTableViewCell.xib in Resources */,
+				B594375D1B94451300D04B34 /* DateTableViewCell.xib in Resources */,
+				B53F609B1B3175B400AFA6F5 /* InstagramVideoTableViewCell.xib in Resources */,
+				B58670761B46EC16005A906C /* TenImageView.xib in Resources */,
+				B53F60891B3174A800AFA6F5 /* FacebookImageTableViewCell.xib in Resources */,
+				B53F60CC1B31815F00AFA6F5 /* TwitterTableViewCell.xib in Resources */,
+				B5DA1CEE1B9E22A5007C643A /* FacebookVideoCommentTableViewCell.xib in Resources */,
+				B53F60CA1B31815F00AFA6F5 /* TwitterImageTableViewCell.xib in Resources */,
+				B53F60CB1B31815F00AFA6F5 /* OneImageView.xib in Resources */,
+				B586708F1B4719D9005A906C /* TumblrQuoteTableViewCell.xib in Resources */,
+				B53F60CD1B31815F00AFA6F5 /* ThreeImageView.xib in Resources */,
+				B53F608C1B3174A800AFA6F5 /* FacebookVideoTableViewCell.xib in Resources */,
+				B58670701B46E18B005A906C /* SevenImageView.xib in Resources */,
+				B53F608B1B3174A800AFA6F5 /* FacebookTableViewCell.xib in Resources */,
+				B59437651B94B9D500D04B34 /* TallDateTableViewCell.xib in Resources */,
+				B58670811B46FF1F005A906C /* TumblrImageTableViewCell.xib in Resources */,
+				B514C5791BE239D000B84A45 /* InstagramPopularTableViewCell.xib in Resources */,
+				B53F60CF1B31815F00AFA6F5 /* TwitterVideoTableViewCell.xib in Resources */,
+				B528900F1BDA63A900726E3F /* ComposeUserView.xib in Resources */,
+				B59437671B94DEAB00D04B34 /* TwitterActionsTableViewCell.xib in Resources */,
+				B57C97051BC2FDAD00D2068E /* AudioPlayerView.xib in Resources */,
+				B5D980F31C04D95D00D04761 /* FacebookEmbeddedPostTableViewCell.xib in Resources */,
+				B5DA1CE61B9CC904007C643A /* InstagramCommentTableViewCell.xib in Resources */,
+				B594374C1B90FFC100D04B34 /* ImageVideoTableViewCell.xib in Resources */,
+				B5D980F91C08C67600D04761 /* AddAccountTableViewCell.xib in Resources */,
+				B53F60E61B3197DB00AFA6F5 /* DateTools.bundle in Resources */,
+				B53F608A1B3174A800AFA6F5 /* FacebookLinkTableViewCell.xib in Resources */,
+				B55F45FF1BCEE91300DB6162 /* TallImageVideoTableViewCell.xib in Resources */,
+				B53F60DF1B31849800AFA6F5 /* AddAccountView.xib in Resources */,
+				B59437481B90FA5D00D04B34 /* TextTableViewCell.xib in Resources */,
+				B54468BD1BFE65A8001DE203 /* TitleView.xib in Resources */,
+				B57C96F41BBF01B100D2068E /* SoundCloudTrackTableViewCell.xib in Resources */,
+				B594376D1B94EA2400D04B34 /* TumblrActionsTableViewCell.xib in Resources */,
 				B5B2EA941B3163BB00AC5C25 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B5B2EA9A1B3163BC00AC5C25 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				B58670741B46E9E6005A906C /* NineImageView.xib in Resources */,
+				B53F60CE1B31815F00AFA6F5 /* TwoImageView.xib in Resources */,
+				B53F60E11B31857500AFA6F5 /* LoadingTableViewCell.xib in Resources */,
+				B574479D1BD03823007273B2 /* TallMapTableViewCell.xib in Resources */,
+				B59437611B94B2B500D04B34 /* CountsTableViewCell.xib in Resources */,
+				B59437511B93255D00D04B34 /* RetweetedTableViewCell.xib in Resources */,
+				B53F609A1B3175B400AFA6F5 /* InstagramImageTableViewCell.xib in Resources */,
+				B53F60C91B31815F00AFA6F5 /* FourImageView.xib in Resources */,
+				B594375B1B93974500D04B34 /* PostUserTableViewCell.xib in Resources */,
+				B59437691B94E8BA00D04B34 /* FacebookActionsTableViewCell.xib in Resources */,
+				B59437711B95B33200D04B34 /* TallTextTableViewCell.xib in Resources */,
+				B55F45F51BC81D4E00DB6162 /* SoundCloudCommentTableViewCell.xib in Resources */,
+				B5DA1CE41B9CC8B1007C643A /* FacebookImageCommentTableViewCell.xib in Resources */,
+				B5D980FD1C08DE9500D04761 /* AccountTableViewCell.xib in Resources */,
+				B5088C2A1B7691700063331E /* TwitterQuoteTableViewCell.xib in Resources */,
+				B5D981B21BA763A300D3931B /* MapTableViewCell.xib in Resources */,
+				B58670891B47156C005A906C /* TumblrLinkTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		049A4F591D42D4DB7321C76D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoFlow/Pods-SoFlow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13C78164FD5EC41B987B6EBB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		69780924D6824A4BA4390A63 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoFlow/Pods-SoFlow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B561F07D1BF642FC005E7DFE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/Fabric.framework/run\" 8f6d25365922a1eb5b07798c319db4ee527b1806 1e9e4df088419aea063c7af200e071d38d8bce037aa479fa6398a45ded49a48c";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B5B2EA811B3163BB00AC5C25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5B2EA8F1B3163BB00AC5C25 /* SecondViewController.swift in Sources */,
+				B53F60D81B31818B00AFA6F5 /* TwitterTableViewCell.swift in Sources */,
+				B58670831B470105005A906C /* TumblrImageTableViewCell.swift in Sources */,
+				B58670871B471376005A906C /* TumblrLinkTableViewCell.swift in Sources */,
+				B59437631B94B3CF00D04B34 /* CountsTableViewCell.swift in Sources */,
+				B53F60C11B317EA400AFA6F5 /* PostsTableViewController.swift in Sources */,
+				B594376F1B94F14400D04B34 /* ActionsTableViewCell.swift in Sources */,
+				B5D981071C0BAEF300D04761 /* HashtagsTableViewController.swift in Sources */,
+				B573EE5D1B599AD50085035F /* PostTableViewController.swift in Sources */,
+				B53F60DB1B31822F00AFA6F5 /* ProfileTableHeaderView.swift in Sources */,
+				B561A1F61BD2BEC900C19B23 /* ListTableViewController.swift in Sources */,
+				B53F60A71B317AAA00AFA6F5 /* PostTableViewCell.swift in Sources */,
+				B5D981BC1BA9FE0700D3931B /* PhotoCollectionViewCell.swift in Sources */,
+				B55F45F71BC81D7200DB6162 /* SoundCloudCommentTableViewCell.swift in Sources */,
+				B5D981091C12365000D04761 /* NotificationsTableViewController.swift in Sources */,
+				B50685BF1BC3053400A03350 /* AudioPlayerView.swift in Sources */,
+				B5D980FF1C08DF4D00D04761 /* AccountTableViewCell.swift in Sources */,
+				B59031FC1B8782CD00EF999F /* VideoViewController.swift in Sources */,
+				B53F60D61B31818B00AFA6F5 /* TwitterImageTableViewCell.swift in Sources */,
+				B5D981B61BA8B78E00D3931B /* MapViewController.swift in Sources */,
+				B57C96F91BBF17DC00D2068E /* SoundCloudTrackTableViewCell.swift in Sources */,
+				B5D980FB1C08CA8E00D04761 /* AddAccountTableViewCell.swift in Sources */,
+				B57C96FE1BC185B200D2068E /* AudioTableViewCell.swift in Sources */,
+				B5CA26F61BDA1AE00004B8FD /* InstagramCountsTableViewCell.swift in Sources */,
+				B53F60B51B317D7A00AFA6F5 /* WebViewController.swift in Sources */,
+				B5DA1CE81B9DEF78007C643A /* InstagramCommentTableViewCell.swift in Sources */,
+				B561A1F01BD19AAA00C19B23 /* ChooseUserCollectionViewController.swift in Sources */,
+				B514C5771BE22F5600B84A45 /* TrendingTableViewController.swift in Sources */,
+				B58670691B447E62005A906C /* HomeTableViewController.swift in Sources */,
+				B586707D1B46EF57005A906C /* TumblrTextTableViewCell.swift in Sources */,
+				B53F60A01B317A4100AFA6F5 /* AccountsTableViewController.swift in Sources */,
+				B5D981B41BA7642700D3931B /* MapTableViewCell.swift in Sources */,
 				B5B2EA8B1B3163BB00AC5C25 /* AppDelegate.swift in Sources */,
-				B5B2EA8D1B3163BB00AC5C25 /* FirstViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B5B2EA981B3163BC00AC5C25 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B5B2EAA31B3163BC00AC5C25 /* SoFlowTests.swift in Sources */,
+				B561A1F41BD298BF00C19B23 /* GroupedTableViewController.swift in Sources */,
+				B53F60A31B317A8900AFA6F5 /* Objects.swift in Sources */,
+				B53F607C1B31748200AFA6F5 /* FacebookImageTableViewCell.swift in Sources */,
+				B59437551B932A9D00D04B34 /* TextTableViewCell.swift in Sources */,
+				B59437461B8F8CE400D04B34 /* TwitterQuoteView.swift in Sources */,
+				B5E5120A1B833E94002BFB9B /* LoadingTableViewCell.swift in Sources */,
+				B53F60B31B317D6000AFA6F5 /* ProfileTableViewController.swift in Sources */,
+				B5E512061B808CD9002BFB9B /* SearchTableViewController.swift in Sources */,
+				B53F60A51B317A9500AFA6F5 /* Methods.swift in Sources */,
+				B53F60BF1B317E9500AFA6F5 /* UsersTableViewController.swift in Sources */,
+				B57E64B01BBC73B200809F3B /* ComposeTableViewCell.swift in Sources */,
+				B53F607D1B31748200AFA6F5 /* FacebookLinkTableViewCell.swift in Sources */,
+				B54468BA1BFE64E9001DE203 /* HomeSwipeViewController.swift in Sources */,
+				B5D980F71C04E49800D04761 /* FacebookEmbeddedPostTableViewCell.swift in Sources */,
+				B5D980F51C04E20F00D04761 /* QuoteView.swift in Sources */,
+				B59437571B93369900D04B34 /* RetweetedTableViewCell.swift in Sources */,
+				B594375F1B9446A000D04B34 /* DateTableViewCell.swift in Sources */,
+				B5D981B81BA9F73F00D3931B /* PhotosCollectionViewController.swift in Sources */,
+				B594374E1B9100E800D04B34 /* ImageVideoTableViewCell.swift in Sources */,
+				B5DA1CEA1B9E1C17007C643A /* FacebookCommentTableViewCell.swift in Sources */,
+				B53F60A11B317A4100AFA6F5 /* AddAccountView.swift in Sources */,
+				B53F60D71B31818B00AFA6F5 /* ImageView.swift in Sources */,
+				B55F45FD1BCEAF8B00DB6162 /* ChoosePhotoCollectionViewController.swift in Sources */,
+				B53F60B81B317D8900AFA6F5 /* UserTableViewCell.swift in Sources */,
+				B514C57B1BE23A3200B84A45 /* InstagramPopularTableViewCell.swift in Sources */,
+				B586707B1B46EF29005A906C /* TumblrTableViewCell.swift in Sources */,
+				B52890111BDA647E00726E3F /* ComposeUserView.swift in Sources */,
+				B53F60D91B31818B00AFA6F5 /* TwitterVideoTableViewCell.swift in Sources */,
+				B5CA26F81BDA2B660004B8FD /* UserCollectionViewCell.swift in Sources */,
+				B58670911B471A26005A906C /* TumblrQuoteTableViewCell.swift in Sources */,
+				B5088C2C1B7692DB0063331E /* TwitterQuoteTableViewCell.swift in Sources */,
+				B57E64A41BBC37B700809F3B /* ComposeTableViewController.swift in Sources */,
+				B53F607E1B31748200AFA6F5 /* FacebookTableViewCell.swift in Sources */,
+				B54468BE1BFE65A8001DE203 /* TitleView.swift in Sources */,
+				B53F60931B31757A00AFA6F5 /* InstagramTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		B5B2EA9E1B3163BC00AC5C25 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B5B2EA841B3163BB00AC5C25 /* SoFlow */;
-			targetProxy = B5B2EA9D1B3163BC00AC5C25 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		B5B2EA901B3163BB00AC5C25 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B5B2EA911B3163BB00AC5C25 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B5B2EA951B3163BB00AC5C25 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +975,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -335,6 +1031,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -342,55 +1039,46 @@
 		};
 		B5B2EAA71B3163BC00AC5C25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA210AD2E9D3D408988B3AFB /* Pods-SoFlow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SoFlow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.graypfruit.so-flow";
+				PRODUCT_NAME = SoFlow;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B5B2EAA81B3163BC00AC5C25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88CF457ACCDF52C0D5AF11EA /* Pods-SoFlow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SoFlow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		B5B2EAAA1B3163BC00AC5C25 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SoFlowTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoFlow.app/SoFlow";
-			};
-			name = Debug;
-		};
-		B5B2EAAB1B3163BC00AC5C25 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SoFlowTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoFlow.app/SoFlow";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.graypfruit.so-flow";
+				PRODUCT_NAME = SoFlow;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -413,14 +1101,7 @@
 				B5B2EAA81B3163BC00AC5C25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		B5B2EAA91B3163BC00AC5C25 /* Build configuration list for PBXNativeTarget "SoFlowTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B5B2EAAA1B3163BC00AC5C25 /* Debug */,
-				B5B2EAAB1B3163BC00AC5C25 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

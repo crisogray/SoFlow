@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Mci-k9-kA6" customClass="FacebookCommentTableViewCell" customModule="SoFlow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CpC-p2-U1d">
+                    <rect key="frame" x="12" y="12" width="48" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="48" id="SrH-vz-wIh"/>
+                        <constraint firstAttribute="height" constant="48" id="hCN-fV-hF9"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Facebook 24px" translatesAutoresizingMaskIntoConstraints="NO" id="kfD-br-Pbh">
+                    <rect key="frame" x="288" y="12" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="0Z9-hi-Eh5"/>
+                        <constraint firstAttribute="height" constant="20" id="3Zd-cQ-eUS"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="This is the funniest i've ever seen" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q9a-yA-vMm">
+                    <rect key="frame" x="68" y="36" width="240" height="42"/>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="in8-JU-Q7j">
+                    <rect key="frame" x="68" y="12" width="0.0" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="Xc2-Uc-gw1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24w" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HrS-vk-YXL">
+                    <rect key="frame" x="248" y="12" width="32" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="32" id="Nd2-Hc-gHO"/>
+                        <constraint firstAttribute="height" constant="20" id="Ph3-ZB-zWv"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="kfD-br-Pbh" secondAttribute="trailing" constant="12" id="4wa-Oq-NTw"/>
+                <constraint firstItem="Q9a-yA-vMm" firstAttribute="leading" secondItem="CpC-p2-U1d" secondAttribute="trailing" constant="8" id="EJH-Ja-7q2"/>
+                <constraint firstItem="in8-JU-Q7j" firstAttribute="top" secondItem="Mci-k9-kA6" secondAttribute="top" constant="12" id="F7C-5s-YcX"/>
+                <constraint firstItem="HrS-vk-YXL" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="in8-JU-Q7j" secondAttribute="trailing" constant="8" id="Ieb-rK-qez"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="CpC-p2-U1d" secondAttribute="bottom" constant="12" id="JUO-PG-g48"/>
+                <constraint firstItem="kfD-br-Pbh" firstAttribute="leading" secondItem="HrS-vk-YXL" secondAttribute="trailing" constant="8" id="O2K-FW-TiI"/>
+                <constraint firstItem="CpC-p2-U1d" firstAttribute="leading" secondItem="Mci-k9-kA6" secondAttribute="leading" constant="12" id="PML-oI-293"/>
+                <constraint firstAttribute="bottom" secondItem="Q9a-yA-vMm" secondAttribute="bottom" constant="12" id="U9x-ey-YEa"/>
+                <constraint firstItem="CpC-p2-U1d" firstAttribute="top" secondItem="Mci-k9-kA6" secondAttribute="top" constant="12" id="Wbb-3v-EP7"/>
+                <constraint firstItem="Q9a-yA-vMm" firstAttribute="top" secondItem="HrS-vk-YXL" secondAttribute="bottom" constant="4" id="f1a-2f-CCU"/>
+                <constraint firstItem="in8-JU-Q7j" firstAttribute="leading" secondItem="CpC-p2-U1d" secondAttribute="trailing" constant="8" id="vHH-iN-PiB"/>
+                <constraint firstItem="kfD-br-Pbh" firstAttribute="top" secondItem="Mci-k9-kA6" secondAttribute="top" constant="12" id="vy8-qU-k9W"/>
+                <constraint firstAttribute="trailing" secondItem="Q9a-yA-vMm" secondAttribute="trailing" constant="12" id="xij-vg-Vgj"/>
+                <constraint firstItem="HrS-vk-YXL" firstAttribute="top" secondItem="Mci-k9-kA6" secondAttribute="top" constant="12" id="yYO-33-aiU"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="dateLabel" destination="HrS-vk-YXL" id="wL7-iw-DO0"/>
+                <outlet property="messageLabel" destination="Q9a-yA-vMm" id="R58-jG-cQl"/>
+                <outlet property="nameLabel" destination="in8-JU-Q7j" id="5Ai-at-WUQ"/>
+                <outlet property="profilePictureImageView" destination="CpC-p2-U1d" id="ZDE-M8-iQE"/>
+                <outlet property="serviceTypeImageView" destination="kfD-br-Pbh" id="CgK-uZ-Npq"/>
+            </connections>
+            <point key="canvasLocation" x="360" y="223"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Facebook 24px" width="24" height="24"/>
+    </resources>
+</document>

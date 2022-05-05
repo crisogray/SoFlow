@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="jf7-ny-zf4" customClass="AccountTableViewCell" customModule="SoFlow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8jr-Fd-y7N">
+                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="200"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="7Qp-SP-ybI"/>
+                        <constraint firstAttribute="width" id="SQf-zM-BQt"/>
+                    </constraints>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5xr-ev-0f5">
+                    <rect key="frame" x="122" y="62" width="76" height="76"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="5xr-ev-0f5" secondAttribute="height" multiplier="1:1" id="NKS-iL-liu"/>
+                        <constraint firstAttribute="height" constant="76" id="Ukx-RQ-zJT"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="8jr-Fd-y7N" firstAttribute="top" secondItem="jf7-ny-zf4" secondAttribute="top" id="Gkd-E8-1Xy"/>
+                <constraint firstAttribute="bottom" secondItem="8jr-Fd-y7N" secondAttribute="bottom" id="WHa-kk-cKy"/>
+                <constraint firstItem="5xr-ev-0f5" firstAttribute="centerX" secondItem="jf7-ny-zf4" secondAttribute="centerX" id="YcX-Nx-lts"/>
+                <constraint firstItem="5xr-ev-0f5" firstAttribute="centerY" secondItem="jf7-ny-zf4" secondAttribute="centerY" id="fWs-7h-ig2"/>
+                <constraint firstItem="8jr-Fd-y7N" firstAttribute="leading" secondItem="jf7-ny-zf4" secondAttribute="leading" id="hOw-Lq-SVv"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="heightConstraint" destination="7Qp-SP-ybI" id="IGx-yD-TKr"/>
+                <outlet property="profileImageView" destination="5xr-ev-0f5" id="VA4-Nb-OzY"/>
+            </connections>
+            <point key="canvasLocation" x="192" y="-2"/>
+        </view>
+    </objects>
+</document>

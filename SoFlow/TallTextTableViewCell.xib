@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="d6n-Xs-gO6" customClass="TextTableViewCell" customModule="SoFlow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hi" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iV8-sp-8E6" customClass="KILabel">
+                    <rect key="frame" x="12" y="6" width="296" height="42"/>
+                    <color key="tintColor" red="0.44705882349999998" green="0.71764705880000002" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="iV8-sp-8E6" secondAttribute="bottom" constant="12" id="A9m-wG-4A0"/>
+                <constraint firstItem="iV8-sp-8E6" firstAttribute="top" secondItem="d6n-Xs-gO6" secondAttribute="top" constant="6" id="JRK-Zq-2mO"/>
+                <constraint firstAttribute="trailing" secondItem="iV8-sp-8E6" secondAttribute="trailing" constant="12" id="czc-JV-QQR"/>
+                <constraint firstItem="iV8-sp-8E6" firstAttribute="leading" secondItem="d6n-Xs-gO6" secondAttribute="leading" constant="12" id="r0Y-Jv-qrf"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="mainLabel" destination="iV8-sp-8E6" id="ISJ-TJ-qb6"/>
+            </connections>
+            <point key="canvasLocation" x="326" y="28"/>
+        </view>
+    </objects>
+</document>
